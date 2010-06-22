@@ -1,0 +1,2344 @@
+
+/!\ FAILSAFE /!\  Fri Apr 30 19:14:44 +0200 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: YES)
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Apr 30 19:14:48 +0200 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: YES)
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Apr 30 19:14:58 +0200 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: YES)
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+/!\ FAILSAFE /!\  Fri Apr 30 19:16:03 +0200 2010
+  Status: 500 Internal Server Error
+  Access denied for user 'root'@'localhost' (using password: YES)
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `real_connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:589:in `connect'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:203:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/mysql_adapter.rb:75:in `mysql_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `send'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:223:in `new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:245:in `checkout_new_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:188:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `loop'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:184:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/monitor.rb:242:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:183:in `checkout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:98:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:326:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:123:in `retrieve_connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_specification.rb:115:in `connection'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (339.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (176.3ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (219.7ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20100430170857)
+  [4;35;1mSQL (151.3ms)[0m   [0mCREATE TABLE `pages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `pos` int(11), `parent_page_id` int(11), `content` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100430170857')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (37.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mdescribe `pages`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW KEYS FROM `pages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:19:13) [GET]
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:19:14) [GET]
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:19:14) [GET]
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#new (for 127.0.0.1 at 2010-04-30 19:19:27) [GET]
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+Rendering template within layouts/pages
+Rendering pages/new
+Completed in 16ms (View: 11, DB: 2) | 200 OK [http://localhost/pages/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.6ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` [0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20100430170857)
+Migrating to PageUpdate (20100430173240)
+  [4;36;1mSQL (119.7ms)[0m   [0;1mALTER TABLE `pages` ADD `title` varchar(255)[0m
+  [4;35;1mSQL (51.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100430173240')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (22.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mdescribe `pages`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `pages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#new (for 127.0.0.1 at 2010-04-30 19:36:11) [GET]
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+Rendering template within layouts/pages
+Rendering pages/new
+Completed in 18ms (View: 12, DB: 2) | 200 OK [http://localhost/pages/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#create (for 127.0.0.1 at 2010-04-30 19:36:42) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY=", "page"=>{"parent_page_id"=>"", "title"=>"Home", "content"=>"Need chat support service for your web but cannot afford one? We will provide everything your web needs to offer professional chat support to your customers:\r\n- chat support software - we will find operators according to your exact needs - train them - doplnim potom - doplnim potom", "pos"=>""}}
+  [4;35;1mPage Columns (8.6ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (42.0ms)[0m   [0;1mINSERT INTO `pages` (`created_at`, `parent_page_id`, `title`, `updated_at`, `content`, `pos`) VALUES('2010-04-30 17:36:42', NULL, 'Home', '2010-04-30 17:36:42', 'Need chat support service for your web but cannot afford one? We will provide everything your web needs to offer professional chat support to your customers:\r\n- chat support software - we will find operators according to your exact needs - train them - doplnim potom - doplnim potom', 1)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/pages/1
+Completed in 112ms (DB: 52) | 302 Found [http://localhost/pages]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-04-30 19:36:42) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/show
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/pages/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:36:47) [GET]
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+Completed in 11ms (View: 6, DB: 2) | 200 OK [http://localhost/pages]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:37:21) [GET]
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+  [4;35;1mPage Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+Completed in 17ms (View: 10, DB: 2) | 200 OK [http://localhost/pages]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:37:43) [GET]
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/pages]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#edit (for 127.0.0.1 at 2010-04-30 19:38:13) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mPage Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/edit
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/pages/1/edit]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#update (for 127.0.0.1 at 2010-04-30 19:39:44) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY=", "id"=>"1", "page"=>{"parent_page_id"=>"", "title"=>"Home", "content"=>"<p>\r\nNeed chat support service for your web but cannot afford one? \r\n<p>\r\n<p>\r\nWe will provide everything your web needs to offer professional chat support to your customers:\r\n</p>\r\n<ul>\r\n\r\n<li>chat support software</li>\r\n<li>we will find operators according to your exact needs </li>\r\n<li>train them</li>", "pos"=>"1"}}
+  [4;36;1mPage Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Update (30.0ms)[0m   [0mUPDATE `pages` SET `content` = '<p>\r\nNeed chat support service for your web but cannot afford one? \r\n<p>\r\n<p>\r\nWe will provide everything your web needs to offer professional chat support to your customers:\r\n</p>\r\n<ul>\r\n\r\n<li>chat support software</li>\r\n<li>we will find operators according to your exact needs </li>\r\n<li>train them</li>', `updated_at` = '2010-04-30 17:39:44' WHERE `id` = 1[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/pages/1
+Completed in 41ms (DB: 33) | 302 Found [http://localhost/pages/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-04-30 19:39:44) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/show
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/pages/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#edit (for 127.0.0.1 at 2010-04-30 19:40:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/edit
+Completed in 13ms (View: 6, DB: 2) | 200 OK [http://localhost/pages/1/edit]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-04-30 19:40:41) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/show
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/pages/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-04-30 19:41:07) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/show
+Completed in 14ms (View: 7, DB: 2) | 200 OK [http://localhost/pages/1]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-04-30 19:42:47) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mPage Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`id` = 1) [0m
+Rendering template within layouts/pages
+Rendering pages/show
+
+ActionView::TemplateError (Missing template <p>
+Need chat support service for your web but cannot afford one? 
+<p>
+<p>
+We will provide everything your web needs to offer professional chat support to your customers:
+</p>
+<ul>
+
+<li>chat support software</li>
+<li>we will find operators according to your exact needs </li>
+<li>train them</_li>.erb in view path app/views) on line #13 of app/views/pages/show.html.erb:
+10: 
+11: <p>
+12:   <b>Content:</b>
+13:   <%= render @page.content %>
+14: </p>
+15: 
+16: 
+
+    app/views/pages/show.html.erb:13
+    app/controllers/pages_controller.rb:18:in `show'
+
+Rendered rescues/_trace (116.6ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#1 (for 127.0.0.1 at 2010-04-30 19:49:33) [GET]
+
+ActionController::UnknownAction (No action responded to 1. Actions: about_us, faq, how_it_works, index, and prices):
+  
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:49:41) [GET]
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+  [4;36;1mPage Columns (90.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+
+ActionView::TemplateError (undefined method `page_path' for #<ActionView::Base:0x101778150>) on line #17 of app/views/pages/index.html.erb:
+14:     <td><%=h page.pos %></td>
+15:     <td><%=h page.parent_page_id %></td>
+16:     <td><%=h page.content %></td>
+17:     <td><%= link_to 'Show', page %></td>
+18:     <td><%= link_to 'Edit', edit_page_path(page) %></td>
+19:     <td><%= link_to 'Destroy', page, :confirm => 'Are you sure?', :method => :delete %></td>
+20:   </tr>
+
+    app/views/pages/index.html.erb:17
+    app/views/pages/index.html.erb:11:in `each'
+    app/views/pages/index.html.erb:11
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (117.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:50:27) [GET]
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` [0m
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 9ms (View: 5, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:52:43) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:54:52) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 19:55:16) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `prices_path' for #<ActionView::Base:0x1011d7ac0>) on line #13 of app/views/pages/index.html.erb:
+10: <li>we will find operators according to your exact needs </li>
+11: <li>train them</li>
+12: 
+13: <%= link_to "All for unbeatable prices!", :prices %>
+
+    app/views/pages/index.html.erb:13
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (61.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:02:45) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:02:54) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `stringify_keys' for :prices:Symbol) on line #13 of app/views/pages/index.html.erb:
+10: <li>we will find operators according to your exact needs </li>
+11: <li>train them</li>
+12: 
+13: <%= link_to "All for unbeatable prices!", root_url, :prices %>
+
+    app/views/pages/index.html.erb:13
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (59.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:03:05) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `to_sym' for nil:NilClass) on line #13 of app/views/pages/index.html.erb:
+10: <li>we will find operators according to your exact needs </li>
+11: <li>train them</li>
+12: 
+13: <%= link_to "All for unbeatable prices!", root_url(:prices) %>
+
+    (eval):20:in `root_url'
+    app/views/pages/index.html.erb:13
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (124.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:03:05) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `to_sym' for nil:NilClass) on line #13 of app/views/pages/index.html.erb:
+10: <li>we will find operators according to your exact needs </li>
+11: <li>train them</li>
+12: 
+13: <%= link_to "All for unbeatable prices!", root_url(:prices) %>
+
+    (eval):20:in `root_url'
+    app/views/pages/index.html.erb:13
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (124.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:03:06) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `to_sym' for nil:NilClass) on line #13 of app/views/pages/index.html.erb:
+10: <li>we will find operators according to your exact needs </li>
+11: <li>train them</li>
+12: 
+13: <%= link_to "All for unbeatable prices!", root_url(:prices) %>
+
+    (eval):20:in `root_url'
+    app/views/pages/index.html.erb:13
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (122.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:08:09) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (undefined method `to_sym' for nil:NilClass) on line #13 of app/views/pages/index.html.erb:
+10: <li>we will find operators according to your exact needs </li>
+11: <li>train them</li>
+12: 
+13: <%= link_to "All for unbeatable prices!", root_url(:prices) %>
+
+    (eval):20:in `root_url'
+    app/views/pages/index.html.erb:13
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (125.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:08:26) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:08:27) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:17:14) [GET]
+
+ActionView::MissingTemplate (Missing template pages/index.erb in view path app/views):
+  app/controllers/pages_controller.rb:7:in `index'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:17:15) [GET]
+
+ActionView::MissingTemplate (Missing template pages/index.erb in view path app/views):
+  app/controllers/pages_controller.rb:7:in `index'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:17:17) [GET]
+
+ActionView::MissingTemplate (Missing template pages/index.erb in view path app/views):
+  app/controllers/pages_controller.rb:7:in `index'
+
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:18:05) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:18:54) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:18:59) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:19:50) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:19:51) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:19:53) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:21:47) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+
+ActionView::TemplateError (index 4137 out of string) on line #17 of app/views/pages/index.html.erb:
+14: <li><%= link_to t("we will find operators according to your exact needs") %></li>
+15: <li><%= link_to t("train them") %></li>
+16: 
+17: <%= link_to t"All for unbeatable prices!", pages_url(:prices) %> 
+
+    app/views/pages/index.html.erb:17
+    app/controllers/pages_controller.rb:7:in `index'
+
+Rendered rescues/_trace (116.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:21:56) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:23:39) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 20:30:20) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:30:25) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:32:53) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:35:26) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:43:32) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 20:45:19) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#how_it_works (for 127.0.0.1 at 2010-04-30 20:45:20) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/how_it_works
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/how_it_works]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#how_it_works (for 127.0.0.1 at 2010-04-30 20:45:43) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/how_it_works
+Completed in 14ms (View: 13, DB: 0) | 200 OK [http://localhost/how_it_works]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 20:59:49) [GET]
+  [4;36;1mFaq Load (0.0ms)[0m   [0;1mMysql::Error: Table 'chatsupport_web_development.faqs' doesn't exist: SELECT * FROM `faqs` [0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'chatsupport_web_development.faqs' doesn't exist: SELECT * FROM `faqs` ):
+  app/controllers/faqs_controller.rb:5:in `index'
+
+Rendered rescues/_trace (49.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20100430170857)
+Migrating to PageUpdate (20100430173240)
+Migrating to CreateFaqs (20100430185721)
+  [4;36;1mSQL (82.8ms)[0m   [0;1mCREATE TABLE `faqs` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `lang` varchar(255), `question` text, `answer` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (25.1ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100430185721')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mSQL (1.8ms)[0m   [0;1mdescribe `faqs`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW KEYS FROM `faqs`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mdescribe `pages`[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW KEYS FROM `pages`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:00:35) [GET]
+  [4;35;1mFaq Load (0.3ms)[0m   [0mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+Completed in 16ms (View: 11, DB: 1) | 200 OK [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:00:37) [GET]
+  [4;36;1mFaq Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 19ms (View: 11, DB: 3) | 200 OK [http://localhost/faqs/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:01:35) [GET]
+  [4;35;1mFaq Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+
+NoMethodError (undefined method `stringify_keys!' for [{:lang=>"en"}]:Array):
+  app/controllers/faqs_controller.rb:27:in `new'
+  app/controllers/faqs_controller.rb:27:in `new'
+
+Rendered rescues/_trace (42.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:01:36) [GET]
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+
+NoMethodError (undefined method `stringify_keys!' for [{:lang=>"en"}]:Array):
+  app/controllers/faqs_controller.rb:27:in `new'
+  app/controllers/faqs_controller.rb:27:in `new'
+
+Rendered rescues/_trace (98.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:01:51) [GET]
+  [4;35;1mFaq Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 11ms (View: 4, DB: 1) | 200 OK [http://localhost/faqs/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:02:09) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"How can chat support improve my sales?", "answer"=>"Depending on type of your business...from assuring the transaction by walking your customer through the process, providing sales support even\r\nduring closing hours to making sure you do not loose your client when he gets confused on your web offering him an instant help."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;36;1mFaq Columns (13.6ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mFaq Create (0.3ms)[0m   [0;1mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:02:09', '2010-04-30 19:02:09', 'en', 'How can chat support improve my sales?', 'Depending on type of your business...from assuring the transaction by walking your customer through the process, providing sales support even\r\nduring closing hours to making sure you do not loose your client when he gets confused on your web offering him an instant help.')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/1
+Completed in 23ms (DB: 15) | 302 Found [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:02:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mFaq Load (0.2ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 1) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://localhost/faqs/1]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:02:11) [GET]
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 11ms (View: 6, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:02:12) [GET]
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/faqs/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:02:25) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"Why should I choose you?", "answer"=>"There are many companies that offer chat support applications. However none of them offer outsourced operators that will actually do chat support\r\non your web. We offer you a simple way to improve your web service and sales without worrying about premises prices, operator's wages,\r\noperator's trainings, software cots, software maintenance, ..."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;35;1mFaq Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFaq Create (0.2ms)[0m   [0mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:02:25', '2010-04-30 19:02:25', 'en', 'Why should I choose you?', 'There are many companies that offer chat support applications. However none of them offer outsourced operators that will actually do chat support\r\non your web. We offer you a simple way to improve your web service and sales without worrying about premises prices, operator\'s wages,\r\noperator\'s trainings, software cots, software maintenance, ...')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/2
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/faqs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:02:25) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mFaq Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mFaq Load (0.2ms)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 2) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/faqs/2]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:02:27) [GET]
+  [4;35;1mFaq Load (0.3ms)[0m   [0mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;36;1mFaq Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 14ms (View: 9, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:02:28) [GET]
+  [4;35;1mFaq Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/faqs/new]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:02:44) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"Why to have outsourced operators rather than my own?", "answer"=>"Depending on type of your business our operators will be able to reach 60-90 % knowledge of your own employers about your services. However\r\nthere is much more to know to provide professional online support. Our operators are highly trained to assure your web visitors feel comfortable and\r\nsafe on your web. Lastly, let's not forget the price that we are able to offer you operators for."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;36;1mFaq Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mFaq Create (0.3ms)[0m   [0;1mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:02:44', '2010-04-30 19:02:44', 'en', 'Why to have outsourced operators rather than my own?', 'Depending on type of your business our operators will be able to reach 60-90 % knowledge of your own employers about your services. However\r\nthere is much more to know to provide professional online support. Our operators are highly trained to assure your web visitors feel comfortable and\r\nsafe on your web. Lastly, let\'s not forget the price that we are able to offer you operators for.')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/3
+Completed in 11ms (DB: 2) | 302 Found [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:02:44) [GET]
+  Parameters: {"id"=>"3"}
+  [4;36;1mFaq Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mFaq Load (0.8ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 3) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://localhost/faqs/3]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:02:46) [GET]
+  [4;36;1mFaq Load (0.4ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:02:52) [GET]
+  [4;36;1mFaq Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/faqs/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:03:12) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"Why chat support rather than call centre?", "answer"=>"1.\r\nprice. Not just the price on your end, but also on your customer's side.<br />\r\n2.\r\nmany foreign customers prefer chat support services because of their ability to break through the language barrier more easily.<br />\r\n3. \"what is written is not forgotten\" - Your clients will receive instructions in written form and therefore will be able to follow intructions better."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFaq Create (0.3ms)[0m   [0mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:03:12', '2010-04-30 19:03:12', 'en', 'Why chat support rather than call centre?', '1.\r\nprice. Not just the price on your end, but also on your customer\'s side.<br />\r\n2.\r\nmany foreign customers prefer chat support services because of their ability to break through the language barrier more easily.<br />\r\n3. \"what is written is not forgotten\" - Your clients will receive instructions in written form and therefore will be able to follow intructions better.')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/4
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/faqs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:03:12) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mFaq Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mFaq Load (0.2ms)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 4) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/faqs/4]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:03:16) [GET]
+  [4;35;1mFaq Load (0.3ms)[0m   [0mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 20ms (View: 14, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:03:27) [GET]
+  [4;35;1mFaq Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/faqs/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:03:37) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"What if my services change? How will your operators know about these changes?", "answer"=>"Our operators will monitor your website every day. We will also update info about your web to our operators every month and all important info\r\nabout changes in your web will be passed to our operators within 24 hours. We recommend you to contact us before you decide to change some\r\nimportant info on your web so that we could alert our operators in advance."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mFaq Create (0.3ms)[0m   [0;1mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:03:37', '2010-04-30 19:03:37', 'en', 'What if my services change? How will your operators know about these changes?', 'Our operators will monitor your website every day. We will also update info about your web to our operators every month and all important info\r\nabout changes in your web will be passed to our operators within 24 hours. We recommend you to contact us before you decide to change some\r\nimportant info on your web so that we could alert our operators in advance.')[0m
+  [4;35;1mSQL (326.1ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/5
+Completed in 338ms (DB: 328) | 302 Found [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:03:37) [GET]
+  Parameters: {"id"=>"5"}
+  [4;36;1mFaq Columns (4.1ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mFaq Load (1.2ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 5) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 13ms (View: 3, DB: 6) | 200 OK [http://localhost/faqs/5]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:03:40) [GET]
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;35;1mFaq Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 23ms (View: 17, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:03:51) [GET]
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://localhost/faqs/new]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:04:03) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"Can I see clients chat history that you have with my clients?", "answer"=>"Yes! We offer all our customers instant access to chat support conversations that our operators have with your clients. You can use this service 24/7\r\nfrom comfort of your home."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mFaq Create (0.2ms)[0m   [0mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:04:03', '2010-04-30 19:04:03', 'en', 'Can I see clients chat history that you have with my clients?', 'Yes! We offer all our customers instant access to chat support conversations that our operators have with your clients. You can use this service 24/7\r\nfrom comfort of your home.')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/6
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/faqs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:04:03) [GET]
+  Parameters: {"id"=>"6"}
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mFaq Load (0.2ms)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 6) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/faqs/6]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:04:06) [GET]
+  [4;35;1mFaq Load (0.4ms)[0m   [0mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 25ms (View: 20, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#new (for 127.0.0.1 at 2010-04-30 21:04:13) [GET]
+  [4;35;1mFaq Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Rendering template within layouts/faqs
+Rendering faqs/new
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/faqs/new]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#create (for 127.0.0.1 at 2010-04-30 21:04:20) [POST]
+  Parameters: {"faq"=>{"lang"=>"en", "question"=>"Are you able to provide more support for my web?", "answer"=>"At the moment we offer only chat support services. We are planning to expand our portfolio however we are not able to provide exact time\r\nschedule."}, "commit"=>"Create", "authenticity_token"=>"zwI8lmW5XzFgMYzYO7v/levH/0xE0hm4XD8PAs3LuaY="}
+  [4;36;1mFaq Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mFaq Create (0.3ms)[0m   [0;1mINSERT INTO `faqs` (`created_at`, `updated_at`, `lang`, `question`, `answer`) VALUES('2010-04-30 19:04:20', '2010-04-30 19:04:20', 'en', 'Are you able to provide more support for my web?', 'At the moment we offer only chat support services. We are planning to expand our portfolio however we are not able to provide exact time\r\nschedule.')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/faqs/7
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#show (for 127.0.0.1 at 2010-04-30 21:04:20) [GET]
+  Parameters: {"id"=>"7"}
+  [4;36;1mFaq Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+  [4;35;1mFaq Load (0.2ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`id` = 7) [0m
+Rendering template within layouts/faqs
+Rendering faqs/show
+Completed in 9ms (View: 3, DB: 2) | 200 OK [http://localhost/faqs/7]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:04:23) [GET]
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 27ms (View: 21, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing FaqsController#index (for 127.0.0.1 at 2010-04-30 21:04:49) [GET]
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/faqs
+Rendering faqs/index
+  [4;35;1mFaq Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 33ms (View: 26, DB: 2) | 200 OK [http://localhost/faqs]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2010-04-30 21:05:01) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/faq
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each) on line #6 of app/views/pages/faq.html.erb:
+3: 
+4: <div id="faq-content">
+5: 	
+6: 	<% @faqs.each do |faq| %>
+7: 		<div class="q"><%= faq.question %></div>
+8: 		<div class="a"><%= faq.answer %></div>	
+9: 	<% end %>
+
+    app/views/pages/faq.html.erb:6
+    app/controllers/pages_controller.rb:26:in `faq'
+
+Rendered rescues/_trace (109.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2010-04-30 21:05:47) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+  [4;36;1mFaq Load (0.4ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;35;1mFaq Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 14ms (View: 7, DB: 2) | 200 OK [http://localhost/faq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2010-04-30 21:25:36) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;35;1mFaq Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 21ms (View: 15, DB: 2) | 200 OK [http://localhost/faq]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-04-30 21:25:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-30 21:26:35) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-30 21:26:35) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 12ms (View: 9, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2010-04-30 21:26:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 15ms (View: 10, DB: 2) | 200 OK [http://localhost/faq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-30 21:26:41) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-30 21:27:10) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-30 21:29:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 70ms (View: 68, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#operator_app (for 127.0.0.1 at 2010-04-30 21:29:41) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Redirected to http://chatsupport-operator
+
+NoMethodError (undefined method `call' for nil:NilClass):
+  app/controllers/pages_controller.rb:51:in `operator_app'
+
+Rendered rescues/_trace (44.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#operator_app (for 127.0.0.1 at 2010-04-30 21:31:11) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Redirected to http://chatsupport-operator
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/operator_app]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#how_it_works (for 127.0.0.1 at 2010-04-30 21:31:18) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/how_it_works
+Completed in 15ms (View: 13, DB: 0) | 200 OK [http://localhost/how_it_works]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2010-04-30 21:31:19) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+  [4;36;1mFaq Load (0.4ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;35;1mFaq Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 17ms (View: 11, DB: 2) | 200 OK [http://localhost/faq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-04-30 21:31:20) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-04-30 21:31:21) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-04-30 21:31:22) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-04-30 21:31:22) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2010-04-30 21:31:23) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+  [4;36;1mFaq Load (0.3ms)[0m   [0;1mSELECT * FROM `faqs` [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;35;1mFaq Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+Completed in 68ms (View: 62, DB: 2) | 200 OK [http://localhost/faq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#how_it_works (for 127.0.0.1 at 2010-04-30 21:31:24) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/how_it_works
+Completed in 17ms (View: 15, DB: 0) | 200 OK [http://localhost/how_it_works]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#prices (for 127.0.0.1 at 2010-04-30 21:31:25) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get, "prices"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/prices
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/prices]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-04-30 21:31:26) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (25.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2010-06-22 10:40:47) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 38ms (View: 36, DB: 25) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:43:31) [GET]
+Rendering under_construction/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:43:32) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:45:56) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:45:57) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:46:43) [GET]
+Rendering under_construction/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:46:45) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:46:45) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:46:45) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:46:45) [GET]
+Rendering under_construction/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:46:46) [GET]
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:47:41) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/js/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/js/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/prev.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:47:41) [GET]
+
+ActionController::RoutingError (No route matches "/images/next.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:49:07) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:07) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:07) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:07) [GET]
+
+ActionController::RoutingError (No route matches "/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:49:38) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:38) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:38) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/background_gradient.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/counter_bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/page_background.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:49:46) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/background_gradient.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/page_background.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/counter_bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:49:47) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:47) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:47) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/background_gradient.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/page_background.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:49:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/counter_bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:50:30) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 54ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:50:30) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:50:30) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:50:41) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:50:41) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jquery.countdown.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 10:50:41) [GET]
+
+ActionController::RoutingError (No route matches "/javasripts/jcarousellite1.0.1_min.js" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:51:06) [GET]
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:57:59) [GET]
+  [4;36;1mNewsLetter Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'chatsupport_web_development.news_letters' doesn't exist: SHOW FIELDS FROM `news_letters`[0m
+
+ActiveRecord::StatementInvalid (Mysql::Error: Table 'chatsupport_web_development.news_letters' doesn't exist: SHOW FIELDS FROM `news_letters`):
+  app/controllers/under_construction_controller.rb:3:in `new'
+  app/controllers/under_construction_controller.rb:3:in `index'
+
+Rendered rescues/_trace (104.0ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mSQL (42.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (40.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePages (20100430170857)
+Migrating to PageUpdate (20100430173240)
+Migrating to CreateFaqs (20100430185721)
+Migrating to CreateNewsLetters (20100622083717)
+  [4;36;1mSQL (208.1ms)[0m   [0;1mCREATE TABLE `news_letters` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (24.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100622083717')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mSHOW FIELDS FROM `faqs`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mdescribe `faqs`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `faqs`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mdescribe `news_letters`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `news_letters`[0m
+  [4;35;1mSQL (32.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mdescribe `pages`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW KEYS FROM `pages`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:58:30) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 79ms (View: 74, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 10:59:44) [GET]
+  [4;36;1mNewsLetter Columns (25.9ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 53ms (View: 23, DB: 26) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:00:08) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:00:36) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:01:22) [GET]
+  [4;35;1mNewsLetter Columns (25.4ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 53ms (View: 24, DB: 26) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:01:48) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 8ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:04:02) [GET]
+  [4;35;1mNewsLetter Columns (11.6ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 19ms (View: 4, DB: 12) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:04:34) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:04:46) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 58ms (View: 53, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:04:59) [GET]
+  [4;36;1mNewsLetter Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:05:05) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:05:25) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:05:54) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:06:21) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:07:02) [GET]
+  [4;35;1mNewsLetter Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:07:41) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>"asdf"}}
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNewsLetter Create (0.3ms)[0m   [0;1mINSERT INTO `news_letters` (`created_at`, `updated_at`, `email`) VALUES('2010-06-22 09:07:42', '2010-06-22 09:07:42', 'asdf')[0m
+  [4;35;1mSQL (13.3ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/news_letters/1
+Completed in 54ms (DB: 15) | 302 Found [http://localhost/news_letters]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#show (for 127.0.0.1 at 2010-06-22 11:07:42) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mNewsLetter Load (0.4ms)[0m   [0mSELECT * FROM `news_letters` WHERE (`news_letters`.`id` = 1) [0m
+
+ActionController::DoubleRenderError (Can only render or redirect once per action):
+  app/controllers/news_letters_controller.rb:19:in `show'
+
+Rendered rescues/_trace (52.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (2.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#show (for 127.0.0.1 at 2010-06-22 11:09:03) [GET]
+  Parameters: {"id"=>"1"}
+Redirected to http://localhost:3000/
+  [4;36;1mNewsLetter Columns (26.0ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mNewsLetter Load (0.3ms)[0m   [0mSELECT * FROM `news_letters` WHERE (`news_letters`.`id` = 1) [0m
+
+ActionController::DoubleRenderError (Can only render or redirect once per action):
+  app/controllers/news_letters_controller.rb:19:in `show'
+
+Rendered rescues/_trace (51.6ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:09:06) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>"asdf"}}
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNewsLetter Create (0.2ms)[0m   [0;1mINSERT INTO `news_letters` (`created_at`, `updated_at`, `email`) VALUES('2010-06-22 09:09:06', '2010-06-22 09:09:06', 'asdf')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/news_letters]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:09:06) [GET]
+  [4;36;1mNewsLetter Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:10:41) [GET]
+  [4;35;1mNewsLetter Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:10:54) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>""}}
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNewsLetter Create (0.2ms)[0m   [0;1mINSERT INTO `news_letters` (`created_at`, `updated_at`, `email`) VALUES('2010-06-22 09:10:54', '2010-06-22 09:10:54', '')[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/news_letters]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:10:54) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:15:18) [GET]
+  [4;35;1mNewsLetter Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:15:21) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>"asdf"}}
+  [4;36;1mNewsLetter Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNewsLetter Load (0.4ms)[0m   [0;1mSELECT `news_letters`.id FROM `news_letters` WHERE (`news_letters`.`email` = BINARY 'asdf') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed in 9ms (DB: 2) | 302 Found [http://localhost/news_letters]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:15:21) [GET]
+  [4;36;1mNewsLetter Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:15:59) [GET]
+  [4;35;1mNewsLetter Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 60ms (View: 54, DB: 2) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:16:03) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>"q"}}
+  [4;36;1mNewsLetter Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNewsLetter Load (0.3ms)[0m   [0;1mSELECT `news_letters`.id FROM `news_letters` WHERE (`news_letters`.`email` = BINARY 'q') LIMIT 1[0m
+  [4;35;1mNewsLetter Create (0.2ms)[0m   [0mINSERT INTO `news_letters` (`created_at`, `updated_at`, `email`) VALUES('2010-06-22 09:16:03', '2010-06-22 09:16:03', 'q')[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/news_letters]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:16:03) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:16:09) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>"asdf"}}
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mNewsLetter Load (0.2ms)[0m   [0;1mSELECT `news_letters`.id FROM `news_letters` WHERE (`news_letters`.`email` = BINARY 'asdf') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mROLLBACK[0m
+Redirected to http://localhost:3000/
+Completed in 10ms (DB: 2) | 302 Found [http://localhost/news_letters]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:16:09) [GET]
+  [4;36;1mNewsLetter Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 10ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:16:38) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:20:48) [GET]
+  [4;36;1mNewsLetter Columns (41.3ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 57ms (View: 12, DB: 41) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:22:03) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:22:55) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:23:59) [GET]
+  [4;35;1mNewsLetter Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:24:12) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 58ms (View: 53, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:24:24) [GET]
+  [4;35;1mNewsLetter Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:26:02) [GET]
+  [4;36;1mNewsLetter Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 9ms (View: 4, DB: 1) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing NewsLettersController#create (for 127.0.0.1 at 2010-06-22 11:27:33) [POST]
+  Parameters: {"commit"=>"SUBSCRIBE", "authenticity_token"=>"lT43xNFCeil9yN3zNaEcRujDGjIZ9bPThY3b5KnWZho=", "news_letter"=>{"email"=>"ahoj"}}
+  [4;35;1mNewsLetter Columns (18.2ms)[0m   [0mSHOW FIELDS FROM `news_letters`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mNewsLetter Load (0.3ms)[0m   [0mSELECT `news_letters`.id FROM `news_letters` WHERE (`news_letters`.`email` = BINARY 'ahoj') LIMIT 1[0m
+  [4;36;1mNewsLetter Create (0.2ms)[0m   [0;1mINSERT INTO `news_letters` (`created_at`, `updated_at`, `email`) VALUES('2010-06-22 09:27:33', '2010-06-22 09:27:33', 'ahoj')[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed in 34ms (DB: 21) | 302 Found [http://localhost/news_letters]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing UnderConstructionController#index (for 127.0.0.1 at 2010-06-22 11:27:33) [GET]
+  [4;36;1mNewsLetter Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `news_letters`[0m
+Rendering template within layouts/under_construction
+Rendering under_construction/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/]

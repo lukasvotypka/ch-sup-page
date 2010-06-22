@@ -1,0 +1,16 @@
+<h1>Editing news_letter</h1>
+
+<% form_for(@news_letter) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @news_letter %> |
+<%= link_to 'Back', news_letters_path %>

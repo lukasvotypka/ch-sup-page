@@ -1,0 +1,6 @@
+<% form_for(@news_letter) do |f| %>
+	<%= f.label "Sign up for updates:" %> 
+	<%= f.text_field :email %>
+	<%= f.submit 'SUBSCRIBE' %>
+<% end %>
+<div id="notice"><%= flash[:notice] %></div>

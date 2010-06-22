@@ -1,0 +1,13 @@
+<h2><%=t("FAQ")%></h2>
+
+
+<div id="faq-content">
+	
+	<% @faqs.each do |faq| %>
+		<div class="q"><%= faq.question %></div>
+		<div class="a"><%= faq.answer %></div>	
+	<% end %>
+	
+	
+
+</div>

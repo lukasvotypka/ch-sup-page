@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chat-support: Coming soon</title>
+
+
+<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="/javascripts/jquery.countdown.js"></script>
+<script type="text/javascript" src="/javascripts/jcarousellite1.0.1_min.js"></script>
+
+
+<!-- jquery countdown-->
+<script type="text/javascript">
+$(function () {
+var austDay = new Date();
+	austDay = new Date(2010, 7, 20);
+	$('#defaultCountdown').countdown({until: austDay, layout: '{dn} {dl}, {hn} {hl}, {mn} {ml}, and {sn} {sl}'});
+	$('#year').text(austDay.getFullYear());
+	});
+</script>
+
+
+<!-- jquery slider -->
+<script type="text/javascript">
+
+/*$(function() {
+    $("#slidertext").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev"
+    });
+});*/
+
+</script>
+
+<!--script for IE6-image transparency recover-->
+<!--[if IE 6]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.7a-min.js"></script>
+<script>
+  /* EXAMPLE */
+  DD_belatedPNG.fix('#logo img,#main,.counter,.twitter,.flickr,.facebook,.youtube,#submit_button,.prev img,.next img,#email_input');
+  
+</script>
+<![endif]--> 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container">
+	
+    <div id="header">
+    
+    	<div id="logo">
+        	<a href="/" ><img src="/images/logo_buble.png" alt="chat-support.net" /></a>
+        </div><!--end logo-->
+            
+        <div id="contact_details">
+        	
+		</div><!--end contact details-->     
+                
+	</div><!--end header-->
+              <div style="clear:both"></div> 
+              
+	<div id="main">
+
+		 <div id="content">
+                    
+              <div class="text">
+              <h2>Chat-support is coming</h2>
+			  <%= yield %>
+              </div><!--end text-->
+                  
+              <div class="counter">
+              <h3>Estimated Time Remaining Before Launch:</h3>
+              <div id="defaultCountdown"></div>
+
+         </div><!--end counter-->
+                 
+         <div class="details">
+              <!--slider prev button-->    
+            <!--<a class="prev" href="#"><img src="images/prev.png" alt="" /> 
+            </a>-->
+
+                  <div id="sliderwrap">
+                  		<div id="slidertext"><!-- The slider -->
+                            
+                                <ul>
+                                     
+                                 
+                                 	<li>
+                                         
+                                         <p>We will provide everything your web needs to offer professional chat support to your customers.</p>
+                                        
+                                 
+                                	 </li><!-- Slider item -->
+                            
+                                </ul>
+                            
+             	 </div><!-- End of slidertext -->
+    
+              </div><!-- End of sliderwrap -->
+
+					<!--slider next button-->
+             	<!--<a class="next" href="#"><img src="images/next.png" alt=""/></a>-->
+
+                  
+                  </div><!--end details-->  
+                </div><!--end content-->
+            
+</div><!--end main-->
+
+</div><!--end class container-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17077397-1']);
+  _gaq.push(['_setDomainName', '.chat-support.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+
+</html>
