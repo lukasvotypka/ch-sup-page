@@ -9,23 +9,58 @@
 </head>
 <body>
 
-<p style="color: green"><%= flash[:notice] %></p>
+<div id="top_navi">
+	<div id="top_navi_right_bg">&nbsp;</div>
+	<div class="wrapper">
+	
+	<ul class="horizontal">
+		<li><%= link_to t("Operator aplication"), pages_url(:operator_app) %></li>
+		<li><%= link_to t("Customer zone"), pages_url(:customer_app) %></li>	
+	</ul>
+	<div class="clear"></div>
+	</div>
+</div>
 
-<ul>
-	<li><%= link_to t("Operator aplication"), pages_url(:operator_app) %></li>
-	<li><%= link_to t("Customer zone"), pages_url(:customer_app) %></li>	
-</ul>
 
-<ul>
-	<li><%= link_to t("Home"), root_url %></li>
-	<li><%= link_to t("Prices"), pages_url(:prices) %></li>
-	<li><%= link_to t("How it works"), pages_url(:how_it_works) %></li>
-	<li><%= link_to t("FAQ"), pages_url(:faq) %></li>
-	<li><%= link_to t("About us"), pages_url(:about_us) %></li>
-	<li><%= link_to t("Contact"), pages_url(:contact) %></li>
-</ul>
+<div id="top">
+	<div class="wrapper">
+		<div id="logo"><a href=""><img src="/images/web/logo.png" alt="<%= t(:home_link)%>" /></a></div>
+		<div class="slogan"><%= t("Need chat support for your web") %><br /><%= t("but cannot affor one?")%></div>
+		<div id="bulb"><img src="/images/web/bulb.png" alt="bulb" /></div>
+	</div>	
+</div>
+<div id="navigation">
+	<div class="wrapper">
+		<ul class="horizontal">
+			<li><div id="index_tab" <%= "class=\"s\"" if params[:action] == "index" %>><%= link_to t("Home"), pages_url(:index) %></div></li>
+			<li><div id="prices_tab" <%= "class=\"s\"" if params[:action] == "prices" %>><%= link_to t("Prices"), pages_url(:prices) %></div></li>
+			<li><div id="how_it_works_tab" <%= "class=\"s\"" if params[:action] == "how_it_works" %>><%= link_to t("How it works"), pages_url(:how_it_works) %></div></li>
+			<li><div id="about_us_tab" <%= "class=\"s\"" if params[:action] == "about_us" %>><%= link_to t("About us"), pages_url(:about_us) %></div></li>
+			<li class="l_margin"><div id="faq_tab" class="<%= "s" if params[:action] == "faq" %>"><%= link_to t("FAQ"), pages_url(:faq) %></div></li>
+			<li><div id="contact_us_tab" <%= "class=\"s\"" if params[:action] == "contact" %> ><%= link_to t("Contact us"), pages_url(:contact) %></div></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div>
 
-<%= yield %>
+<div id="greenfield">
+	<div class="right_bg"></div>
+	<div class="wrapper">
+		<div class="slogan"><%= @slogan %></div>
+	</div>
+</div>
 
+<div id="content">
+	<div class="wrapper">
+		<div class="page_content">
+			<%= yield %>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div id="foot">
+	<div class="wrapper">All rights reseved</div>
+</div>
 </body>
 </html>

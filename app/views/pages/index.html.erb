@@ -1,17 +1,29 @@
+<div class="home">
 
+	<h2><%= t("Home") %></h2>
+	
+	<p>
+	<%= t("Need chat support service for your web but cannot afford one?") %> 
+	</p>
+	<p>
+	<%= t("We will provide everything your web needs to offer professional chat support to your customers:") %>
+	</p>
+	<ul>
+	
+	<li><%= t("chat support software") %></li>
+	<li><%= t("we will find operators according to your exact needs") %></li>
+	<li><%= t("train them") %></li>
+	</ul>
+	<%= link_to t("All for unbeatable prices!"), pages_url(:prices) %> 
+	
+	
+	<div class="scene">
+		<div class="wrapper">
+			<img id="person" alt="person" src="/images/web/home/home_person.jpg" />
+			<div class="buble" id="buble">
+				<p><%=t("Increase web sales now")%>!</p>
+			</div>
+		</div>
+	</div>
 
-<h2><%= t("Home") %></h2>
-
-<p>
-<%= t("Need chat support service for your web but cannot afford one?") %> 
-</p>
-<p>
-<%= t("We will provide everything your web needs to offer professional chat support to your customers:") %>
-</p>
-<ul>
-
-<li><%= t("chat support software") %></li>
-<li><%= t("we will find operators according to your exact needs") %></li>
-<li><%= t("train them") %></li>
-
-<%= link_to t("All for unbeatable prices!"), pages_url(:prices) %> 
+</div>

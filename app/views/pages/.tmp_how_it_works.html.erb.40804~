@@ -1,0 +1,14 @@
+<h2><%= t("How it works") %></h2>
+
+<ul>
+	<li><%= t("Tell us about your business so that we could find chat support operators according exactly to your needs.") %></li>
+	<li><%= t("Tell us about FAQs of your visitors and problems that they face.") %></li>
+	<li><%= t("Let us implement our chat support client into your web structures.") %></li>	
+	<li><%= t("Choose date when you want us to start supporting your web.") %></li>
+</ul>
+
+<p><%= t("To receive further info please check") %> 
+	<%= link_to t("FAQ"), pages_url('faq')%> 
+	<%= t("section or do not hesitate to ")%>
+	<%= link_to t("contact us online now")+"!" %>
+</p>

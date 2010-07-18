@@ -1,0 +1,18 @@
+<div class="about_us">
+<h2><%=t("About us")%></h2>
+
+<p><%=t(:about_us_text)%></p>
+
+<div class="scene">
+	<img src="/images/web/about/about_scene.jpg" alt="team" />
+	<div id="co_founder"><span><%= t("Co-founders of chat-support.net) %>:</span></div>
+	<div id="senior"><span><%= t("Our senior supporters") %>:</span></div>
+	<div id="lv"><span><%= t("") %></span></div>
+	<div id=""><span><%= t("") %></span></div>
+	<div id=""><span><%= t("") %></span></div>
+	<div id=""><span><%= t("") %></span></div>
+	<div id=""><span><%= t("") %></span></div>
+	<div id=""><span><%= t("") %></span></div>
+</div>
+
+</div>

@@ -1,0 +1,38 @@
+<h2><%= t("Prices") %></h2>
+
+<table>
+	<tbody>
+		<tr>
+			<td>8 <%= t("hours per day") %></td>
+			<td>5.99 <%= t("EUR/hour") %></td>
+		</tr>
+		<tr>
+			<td>16 <%= t("hours per day") %></td>
+			<td>4.99 <%= t("EUR/hour") %></td>
+		</tr>
+		<tr>
+			<td>24 <%= t("hours per day") %></td>
+			<td>3.99 <%= t("EUR/hour") %></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>
+	<%= t("Subscription includes") %>:
+	<ul>
+		<li><%= t("chat support software + its implementation into your web") %></li>
+		<li><%= t("trained operators who will provide online customer support on your web") %></li>
+		<li><%= t("unlimited access to all chat support conversations") %></li>
+	</ul>
+</p>
+
+<p>
+	<%= t("SPECIAL OFFERS") %>:
+	<ul>
+		<li><%= t("Get a 10% discount for recommending our service to our next client!") %></li>
+		<li><%= t("Have more websites? Get support for second web for 10% discount!") %></li>
+	</ul>
+</p>
+
+<p><%= t("IMPORTANT INFO") %>:
+<%= t("Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours)") %></p>

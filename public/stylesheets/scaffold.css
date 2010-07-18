@@ -1,7 +1,7 @@
-body { background-color: #fff; color: #333; }
+html, body { background-color: #fff; color: #333; padding:0; margin:0; height: 100%;}
 
 body, p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
+  font-family: "Myriad pro",verdana, arial, helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
 }
@@ -12,9 +12,9 @@ pre {
   font-size: 11px;
 }
 
-a { color: #000; }
+a { color: #d7d7d7; }
 a:visited { color: #666; }
-a:hover { color: #fff; background-color:#000; }
+a:hover { color: #fff;}
 
 .fieldWithErrors {
   padding: 2px;
@@ -52,3 +52,475 @@ a:hover { color: #fff; background-color:#000; }
   list-style: square;
 }
 
+.translation_missing{
+	/*border-bottom: 1px dotted silver;*/
+}
+
+/* webpage */
+
+.clear{
+	clear: both;
+}
+
+img{
+	border: none;
+}
+
+
+
+ul.horizontal{
+	margin:0;
+	padding:0;
+}
+
+ul.horizontal li{
+	float:left;
+	list-style: none;
+	margin: 0 1em 0;
+}
+
+.wrapper{
+	width: 689px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#top_navi{
+	background-color: #4a4b49;
+}
+#top_navi #top_navi_right_bg{
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 0;
+	background-color:#262625;
+}
+
+#top_navi .wrapper{
+	background: #404140 url(/images/web/top_navi_bg.jpg) repeat-y top left;
+	position: relative;
+}
+#top_navi ul{
+	float:right;
+}
+#top{
+	background: #2b2b2b;
+}
+#top .wrapper{
+	 background: url(/images/web/top_bg.gif) no-repeat 306px 0px;
+	 display: block;
+	 height: 214px;
+}
+#logo{
+	left:97px;
+	top: 39px;
+	position: absolute;
+}
+
+#top .slogan{
+	position: absolute;
+	left:413px;
+	top:51px;
+	color: #c6c6c6;
+	font-size: 1.3em;
+}
+
+#bulb{
+	position: absolute;
+	left: 402px;
+	top: 107px;
+	width: 141px;
+	height: 185px;
+	z-index: 100;
+}
+
+#navigation{
+	background-color: #2b2b2b;
+}
+
+#navigation .wrapper{
+	z-index: 200;
+}
+
+#navigation ul a{
+	font-size: 1.2em;
+	font-weight: bold;
+	font-family: "Myriad pro";
+	text-decoration: none;
+}
+#navigation ul a:hover{
+	background: none;
+}
+
+#navigation ul li{
+	margin-left: 1.7em;
+}
+
+#navigation ul li div{
+	height: 2em;
+	text-align:center;
+}
+
+#navigation ul .l_margin{
+	margin-left: 90px;
+}
+
+#contact_us_tab{
+	width: 81px;
+}
+
+#contact_us_tab.s{
+	background: url(/images/web/tab_contact_us.jpg) no-repeat left bottom transparent;
+}
+
+#faq_tab{
+	width: 55px;
+}
+
+#faq_tab.s{
+	background: url(/images/web/tab_faq.jpg) no-repeat left bottom transparent;
+}
+
+#about_us_tab{
+	width: 68px;
+}
+
+#about_us_tab.s{
+	background: url(/images/web/tab_about_us.jpg) no-repeat left bottom transparent;
+}
+
+#how_it_works_tab{
+	width: 95px;
+}
+#how_it_works_tab.s{
+	background: url(/images/web/tab_how_it_works.jpg) no-repeat left bottom transparent;
+}
+
+#prices_tab{
+	width:55px;
+}
+
+#prices_tab.s{
+	background: url(/images/web/tab_prices.jpg) no-repeat left bottom transparent;
+}
+
+#index_tab{
+	width: 55px;
+}
+
+#index_tab.s{
+	background: url(/images/web/tab_index.jpg) no-repeat left bottom transparent;
+}
+
+#greenfield{
+	background-color: #87bb07;
+	position:relative;
+}
+
+#greenfield .right_bg{
+	position: absolute;
+	width: 50%;
+	right: 0;
+	top: 0;
+	background-color:#94c618;
+	height: 80px;
+}
+
+#greenfield .wrapper{
+	background: #87bb07 url(/images/web/greenfield_bg.jpg);
+	height: 80px;
+}
+
+#greenfield .slogan{
+	top: 35px;
+	position: absolute;
+	color: #323232;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: "Myriad pro";
+	font-weight:600;
+}
+
+#content{
+	overflow:visible;
+	color: #2b2b2b;
+	background-color: #eff0ea;
+}
+
+#content a{
+	color: #2b2b2b;
+}
+
+#content a:hover{
+	color: #000000;
+}
+
+#content .wrapper .page_content{
+	float:left;
+}
+
+#content h2{
+	padding:0;
+	margin:0;
+	color: #9ad411;
+	font-size: 2em;
+	font-family: "Myriad pro";
+	font-weight:600;
+}
+
+#foot{
+	background-color: #494949;
+	height:3em;
+	clear:both;
+	/*position: absolute;
+	bottom:0;
+	width:100%;*/
+}
+
+#foot .wrapper{
+	text-align:center;
+}
+
+/* contact us */
+
+#content ul.contact{
+	margin-top:2em;
+}
+
+#content ul.contact h3{
+	text-transform:uppercase;
+	margin:0;
+	padding:0;
+}
+
+#content ul.contact span{
+	font-weight:600;
+}
+
+#content .contact_us{
+	position:relative;
+	height:400px;
+}
+
+#content .contact_us .hr{
+	border-bottom: 1px solid #2b2b2b;
+	width: 500px;
+}
+
+#content .contact_us .contact_now{
+	margin-left: 16em;
+	font-size: 1.3em;
+	text-transform:uppercase;
+	font-weight:600;
+}
+
+#content .contact_us .scene{
+	position: absolute;
+	bottom:0;
+}
+
+#content .contact_us .scene .person1, #content .contact_us .scene .person2{
+	position: absolute;
+	bottom:0;
+}
+
+#content .contact_us .scene .person2{
+	right:0;
+}
+
+#content .contact_us .scene .wrapper{
+	position:relative;
+}
+
+#content .contact_us .scene .buble{
+	position:absolute;
+}
+
+#content .contact_us .scene .buble p{
+	font-size: 0.7em;
+}
+
+#content .contact_us .scene .buble1{
+	background: url(/images/web/contact/contact_buble1.png) no-repeat top left;
+	width: 220px;
+	height: 47px;
+	bottom:190px;
+	left: 100px;
+}
+
+#content .contact_us .scene .buble1 p{
+	margin-left: 20px
+}
+
+#content .contact_us .scene .buble2{
+	background: url(/images/web/contact/contact_buble2.png) no-repeat top left;
+	width: 230px;
+	height: 66px;
+	bottom:190px;
+	right: 100px;
+}
+
+#content .contact_us .scene .buble2 p{
+	margin: 10px 30px 10px 10px;
+}
+
+
+
+/* FAQ */
+
+#faq-content{
+	float:left;
+	padding-bottom:3em;
+}
+
+#faq-content .q{
+	margin-top: 2em;
+	text-transform:uppercase;
+	font-weight:600;
+}
+#faq-content .a{
+	
+}
+
+/* How it works */
+
+#content .hiw{
+	height:400px;
+	position:relative;
+}
+
+#content .hiw .scene{
+	position:absolute;
+	bottom:-30px;
+	left:150px;
+}
+
+#content .hiw .buble1{
+	background: url(/images/web/hiw/hiw_buble.png) no-repeat top left;
+	width: 214px;
+	height: 79px;
+	bottom:130px;
+	left: 150px;
+	position:absolute;
+}
+
+#content .hiw .buble1 p{
+	margin: 10px 10px 10px 30px;
+}
+
+/* about us */
+
+#content .about_us{
+	position:relative;
+	height:400px;
+	width:100%;
+}
+
+#content .about_us .scene{
+	width:100%;
+	position:absolute;
+	bottom:0;
+}
+
+#content .about_us .scene .wrapper{
+	
+}
+
+#content .about_us .scene img{
+	margin:0 auto;
+	width:100%;
+}
+
+#content .about_us .note{
+	position:absolute;
+	font-size: 0.8em;
+	text-transform:capitalize;
+}
+
+#content .about_us #lv{
+	top: 155px;
+	left: 20px
+}
+
+#content .about_us #ik{
+	top: 55px;
+	left:320px;
+}
+
+#content .about_us #ja{
+	top: 35px;
+	left: 410px;
+}
+
+#content .about_us #ap{
+	top: 40px;
+	left: 515px;
+}
+
+#content .about_us #jn{
+	top: 32px;
+	left: 600px;
+}
+
+#content .about_us .title{
+	color: #c6c8c4;
+	font-weight: bold;
+	top: -3px;
+}
+
+#content .about_us #co_founder{
+	left: 65px;
+}
+
+#content .about_us #senior{
+	left: 480px;
+}
+
+
+/* prices */
+
+#content .prices{
+	height:300px;
+	position:relative;
+}
+
+#content .prices .scene{
+	width:100%;
+	position:absolute;
+	bottom:-25px;
+	left: 350px;
+}
+
+/* home */
+
+#content .home{
+	height: 400px;
+	position:relative;
+}
+
+#content .home .scene{
+	position: absolute;
+	bottom:0;
+}
+
+#content .home .scene #buble{
+	position: absolute;
+	right: 20px;
+	bottom: 140px;
+	background: url(/images/web/home/home_buble.png) no-repeat top left;
+	width: 95px;
+	height: 56px;
+}
+
+#content .home .scene #buble p{
+	font-size:0.9em;
+	font-weight:600;
+	margin:5px 10px 20px;
+	text-align:right;
+}
+
+#content .home .scene #person{
+	position: absolute;
+	bottom:-1px;
+	right:0px;
+}

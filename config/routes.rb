@@ -48,13 +48,14 @@ ActionController::Routing::Routes.draw do |map|
   
 #  map.root :controller => "pages"
   
-#  map.pages ':action', :controller=>"pages", :collection => { 
-#      :prices => :get,
-#      :faq => :get,
-#      :how_it_works => :get,
-#      :about_us => :get,
-#      :operator_app => :get,
-#      :customer_app => :get}
+  map.pages ':action', :controller=>"pages", :collection => { 
+      :prices => :get,
+      :faq => :get,
+      :how_it_works => :get,
+      :about_us => :get,
+      :operator_app => :get,
+      :customer_app => :get,
+      :index => :get}
   
 
   # See how all your routes lay out with "rake routes"
