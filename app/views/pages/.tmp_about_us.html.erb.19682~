@@ -1,7 +1,7 @@
 <div class="about_us">
 <h2><%=t("About us")%></h2>
 
-<p class="long_text"><%=t(:about_us_text)%></p>
+<p><%=t(:about_us_text)%></p>
 
 <div class="scene">
 	<div class="wrapper">

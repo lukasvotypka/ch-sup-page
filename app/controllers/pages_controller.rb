@@ -1,4 +1,4 @@
-class PagesController < ApplicationController
+class PagesController < PublicWebController
   # GET /pages
   # GET /pages.xml
   def index

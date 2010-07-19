@@ -147,6 +147,7 @@ ul.horizontal li{
 	font-weight: bold;
 	font-family: "Myriad pro";
 	text-decoration: none;
+	color: #bbbbbb;
 }
 #navigation ul a:hover{
 	background: none;
@@ -159,6 +160,10 @@ ul.horizontal li{
 #navigation ul li div{
 	height: 2em;
 	text-align:center;
+}
+
+#navigation ul li div.s a{
+	color: #FFFFFF;
 }
 
 #navigation ul .l_margin{
@@ -233,12 +238,13 @@ ul.horizontal li{
 
 #greenfield .slogan{
 	top: 35px;
-	position: absolute;
+	position: relative;
 	color: #323232;
 	font-size: 1.2em;
 	text-transform: uppercase;
 	font-family: "Myriad pro";
 	font-weight:600;
+	text-align:center;
 }
 
 #content{
@@ -337,7 +343,7 @@ ul.horizontal li{
 }
 
 #content .contact_us .scene .buble p{
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 
 #content .contact_us .scene .buble1{
@@ -406,6 +412,7 @@ ul.horizontal li{
 
 #content .hiw .buble1 p{
 	margin: 10px 10px 10px 30px;
+	text-align: center;
 }
 
 /* about us */
@@ -414,6 +421,10 @@ ul.horizontal li{
 	position:relative;
 	height:400px;
 	width:100%;
+}
+
+#content .about_us p.long_text{
+	text-align: justify;
 }
 
 #content .about_us .scene{
@@ -454,7 +465,7 @@ ul.horizontal li{
 
 #content .about_us #ap{
 	top: 40px;
-	left: 515px;
+	left: 505px;
 }
 
 #content .about_us #jn{
