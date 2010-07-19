@@ -1,8 +1,12 @@
 class PublicWebController < ApplicationController
-  #before_filter :set_locale
+  before_filter :set_locale
+  
+  def available_locales; AVAILABLE_LOCALES; end
   
   def set_locale
     I18n.locale = extract_locale_from_tld
+    @server_domain = request.host.split('.')
+    @server_domain.pop
   end
   
   # Get locale from top-level domain or return nil if such locale is not available

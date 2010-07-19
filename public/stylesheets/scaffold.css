@@ -66,8 +66,6 @@ img{
 	border: none;
 }
 
-
-
 ul.horizontal{
 	margin:0;
 	padding:0;
@@ -88,6 +86,7 @@ ul.horizontal li{
 #top_navi{
 	background-color: #4a4b49;
 }
+
 #top_navi #top_navi_right_bg{
 	position: absolute;
 	width: 50%;
@@ -100,17 +99,26 @@ ul.horizontal li{
 	background: #404140 url(/images/web/top_navi_bg.jpg) repeat-y top left;
 	position: relative;
 }
-#top_navi ul{
+
+#top_navi .navigation{
 	float:right;
+	color: #d7d7d7;
 }
+
+#top_navi ul li{
+	margin: 0 0.5em;
+}
+
 #top{
 	background: #2b2b2b;
 }
+
 #top .wrapper{
 	 background: url(/images/web/top_bg.gif) no-repeat 306px 0px;
 	 display: block;
 	 height: 214px;
 }
+
 #logo{
 	left:97px;
 	top: 39px;
@@ -126,12 +134,12 @@ ul.horizontal li{
 }
 
 #bulb{
-	position: absolute;
-	left: 402px;
-	top: 107px;
-	width: 141px;
-	height: 185px;
-	z-index: 100;
+	height:201px;
+	left:360px;
+	position:absolute;
+	top:107px;
+	width:222px;
+	z-index:100;
 }
 
 #navigation{
@@ -263,11 +271,12 @@ ul.horizontal li{
 
 #content .wrapper .page_content{
 	float:left;
+	width:100%;
 }
 
 #content h2{
 	padding:0;
-	margin:0;
+	margin:0.2em 0;
 	color: #9ad411;
 	font-size: 2em;
 	font-family: "Myriad pro";
@@ -285,6 +294,11 @@ ul.horizontal li{
 
 #foot .wrapper{
 	text-align:center;
+	color: #D7D7D7;
+}
+
+#content .buble{
+	font-weight:600;
 }
 
 /* contact us */
@@ -368,6 +382,7 @@ ul.horizontal li{
 
 #content .contact_us .scene .buble2 p{
 	margin: 10px 30px 10px 10px;
+	text-align: center;
 }
 
 
@@ -491,15 +506,27 @@ ul.horizontal li{
 /* prices */
 
 #content .prices{
-	height:300px;
+	height:55ex;
 	position:relative;
 }
 
 #content .prices .scene{
-	width:100%;
+	width:163px;
 	position:absolute;
 	bottom:-25px;
-	left: 350px;
+	right: 0;
+	float:right;
+}
+
+#content .prices .text_wrapper{
+	width: 38em;
+}
+
+#content .prices .prices_items{
+	font-weight: 600;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	margin-top: 2em;
 }
 
 /* home */
@@ -527,7 +554,8 @@ ul.horizontal li{
 	font-size:0.9em;
 	font-weight:600;
 	margin:5px 10px 20px;
-	text-align:right;
+	text-align: center;
+	line-height: 1.2em;
 }
 
 #content .home .scene #person{

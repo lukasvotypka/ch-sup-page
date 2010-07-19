@@ -1,0 +1,41 @@
+<div class="prices">
+	
+	<h2><%= t("Prices") %></h2>
+	
+	<div class="text_wrapper">
+		<div class="prices_items">
+			<% @prices.each do |price| %>
+				<div class="price_item">
+					<%= price.hours %> <%= t("hours") %> / <%= t("day") %> 
+					<%= price.price %> <%= t("EUR") %>/<%= t("hour")%>  
+				</div>
+			<% end %>
+		</div>
+		
+		
+		<p>
+			<%= t("Subscription includes") %>:
+			<ul>
+				<li><%= t("chat support software + its implementation into your web + software maintenance") %></li>
+				<li><%= t("trained operators who will provide online customer support on your web") %></li>
+				<li><%= t("unlimited access to all chat support conversations") %></li>
+			</ul>
+		</p>
+		
+		<p>
+			<%= t("SPECIAL OFFERS") %>:
+			<ul>
+				<li><%= t("Get a 10% discount for recommending our service to our next client!") %></li>
+				<li><%= t("Have more websites? Get support for second website with 10% discount!") %></li>
+			</ul>
+		</p>
+		
+		<p><%= t("IMPORTANT INFO") %>:
+		<%= t("Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours)") %></p>
+	</div>	
+	
+	<div class="scene">
+			<img src="/images/web/prices/prices_person1.png" alt="person" />
+	</div>
+	
+</div>

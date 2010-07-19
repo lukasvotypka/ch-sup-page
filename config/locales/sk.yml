@@ -1,40 +1,62 @@
 sk:
   hello: "Ahoj svet"
-  Need chat support for your web: "Need chat support for your web"
-  but cannot affor one?: "but cannot affor one?"
-  home_link: "chat-support.net"
+  Need chat support for your web: "Chcete poskytovať on-line pomoc na Vašej"
+  but cannot affor one?: "stránke, no nemôžete si to dovoliť?"
+  home_link: "chatsupport.sk"
   Operator aplication: "Operator aplication"
-  Customer zone: "Customer zone"
-  Home: "Home"
-  Prices: "Prices"
-  How it works: "How it works"
+  Customer zone: "Login"
+  Home: "Domov"
+  Prices: "Ceny"
+  How it works: "Ako to funguje"
   FAQ: "FAQ"
-  About us: "About us"
-  Contact: "Contact"
+  About us: "O nás"
+  Contact: "Kontakt"
   Contact us: "Contact us"
-  slogan_home: "Show visitors of your website you are customer oriented. Offer them an instant help!"
-  slogan_prices: "Increase your sales by providing customer support even during closing hours!"
-  slogan_how_it_works: "95% of new website visitors leave within 2 minutes. Let us help you change visitors of your web into customers!"
-  slogan_faq: "Make sure you don't loose potential customer when visitor of your website gets confused. Offer him instant help!"
-  slogan_about_us: "We will help you implement chat support client into your website for free!"
-  slogan_contact_us: "Let our professionally trained operators improve your customer relationship."
-  support: "support"
-  sales: "sales"
-  address: "address"
-  or contact us online now!: "or contact us online now!"
-  contact_buble1: Provide instant support even during closing hours!
-  contact_buble2: Make sure your clients complete the transactions by walking them through the process!
-  hiw_buble: We will help you implement chat support client into your website for free!
-  Tell us about your business so that we could find chat support operators according exactly to your needs: Tell us about your business so that we could find chat support operators according exactly to your needs
-  Tell us about FAQs of your visitors and problems that they face: Tell us about FAQs of your visitors and problems that they face
-  Let us implement our chat support client into your web structures: Let us implement our chat support client into your web structures
-  Choose date when you want us to start supporting your web: Choose date when you want us to start supporting your web
-  To receive further info please check:  To receive further info please check
-  section or do not hesitate to: section or do not hesitate to
-  contact us online now!: contact us online now!
-  contact us online now: contact us online now
-  about_us_text: After years of experience with providing chat support services as outsourced operators we realized this service could be available for many other websites that are not able to afford their own chat support department. There are many companies that offer chat support applications. However none of them offer outsourced operators that will actually do full chat support on your web. We offer you a simple way to improve your web service and sales without worrying about premises prices, operator's wages, operator's trainings, software cots, software maintenance, ... We were founded in 2010 however all of our recent personal has years of experience with providing chat-support internationally or is supervised by senior supporter who has.
-  about_co-founders: Co-founders of chat-support.net
-  about_senior: Our senior supporters
-  Increase web sales now: Increase web sales now
-  All for unbeatable prices!: All for unbeatable prices!
+  slogan_home: "Ukážte návštevníkom stránky, že Váš biznis je zákaznícky orientovaný! Ponúknite im okamžitú pomoc!"
+  slogan_prices: "Ukážte zákazníkom, že Vám na nich záleží. Pomáhajte im aj mimo otváracích hodín!"
+  slogan_how_it_works: "95% nových návštevníkov opúšťa internetovú stránku v priebehu 2 minút! Pomôžeme Vám zmeniť týchto návštevníkov na zákazníkov."
+  slogan_faq: "Ubezpečte sa, že nestratíte potenciálneho zákazníka v prípade, že narazí na problém. Ponúknite mu okamžitú pomoc!"
+  slogan_about_us: "Neplaťte za drahé aplikácie na prevádzkovanie on-line pomoci zákazníkov! Zadarmo Vám pomôžeme implementovať tú našu!"
+  slogan_contact_us: "Dovoľte nám a našim profesionálne zaškoleným operátorom zvýšiť úroveň ponúkaných služieb na Vašej internetovej stránke!"
+  support: "Technické oddelenie"
+  sales: "Obchodné oddelenie"
+  address: "Sídlo"
+  or contact us online now!: "tiež neváhajte kedykoľvek kontaktovať naše stredisko on-line pomoci a otestujte si nás v praxi!"
+  contact_buble1: Pomáhajte návštevníkom stránky aj mimo otváracích hodín!
+  contact_buble2: Ubezpečte sa, že návštevník uzatvorí transakciu. Navigujte ho počas celého procesu!
+  hiw_buble: 95% nových návštevníkov opúšťa internetovú stránku v priebehu 2 minút! Pomôžeme Vám zmeniť týchto návštevníkov na zákazníkov.
+  Tell us about your business so that we could find chat support operators according exactly to your needs: Povedzte nám o Vašich službách, a my vyberieme operátorov vhodných presne pre Vaše potreby.
+  Tell us about FAQs of your visitors and problems that they face: Povedzte nám o častých otázkach návštevníkov Vašej stránky a o problémoch s ktorými sa stretávajú. 
+  Let us implement our chat support client into your web structures: Pomôžeme Vám implementovať našu aplikáciu na poskytovanie on-line pomoci do štruktúry Vašej stránky.
+  Choose date when you want us to start supporting your web: Zvoľte si dátum kedy naši operátori začnú s poskytovaním pomoci na Vašej stránke.
+  To receive further info please check:  Pre ďalšie informácie kliknite na sekciu
+  section or do not hesitate to: alebo neváhajte kontaktovať naše
+  contact us online now!: stredisko on-line pomoci a otestujte si nás v praxi!
+  contact us online now: stredisko on-line pomoci a otestujte si nás v praxi
+  about_us_text: Po rokoch skúsenosti s poskytovaním on-line pomoci pre zahraničné firmy ako “mimo-firemní operátori” sme si uvedomili, že by naše služby mohli byt užitočné pre mnohé iné stránky, ktoré nie sú schopné vytvoriť vlastné chat support oddelenie. Sme mladý, ambiciózny a vysokoškolsky vzdelaný tím plný entuziazmu a odhodlania. Na rozdiel od konkurencie Vám ponúkame nielen chat support software, ale komplexné riešenie otázky poskytovania live pomoci zákazníka bez toho, aby ste sa museli zaoberať mzdami operátorov, ich zaškolením, údržbou chat support aplikácie, … . Boli sme založení v roku 2010 avšak všetci naši operátori majú skúsenosti s poskytovaním on-line pomoci, alebo sú pod neustálym dohľadom skúseného školiteľa. Našim cieľom je zmeniť návštevníkov Vašej stránky na Vašich zákazníkov!
+  about_co-founders: Spoluzakladatelia chatsupport.sk
+  about_senior: Senior operátori
+  Increase web sales now: Zlepšite  zákaznícke vzťahy!
+  All for unbeatable prices!: Všetko za bezkonkurenčné ceny!
+  
+  home_text1: "Let our operators do the live chat support on your web and change your website visitors into your customers now! We offer you a simple way to improve your web services and sales without you worrying about premises prices, operator's wages, operator's trainings, and software costs related to chat support departments. Our goal is to improve your business by our professional chat support services."
+  home_We will provide everything your website needs to offer live chat support to your potential customers: "We will provide everything your website needs to offer live chat support to your potential customers"
+  chat support software + maintenance: "chat support software + maintenance"
+  professionally trained operators chosen to your exact needs: "professionally trained operators chosen to your exact needs"
+  implementation of chat support client into your web: "implementation of chat support client into your web"
+  24/7 access to all chat support conversations: "24/7 access to all chat support conversations"
+  hours: "hours"
+  day: "day"
+  EUR: "EUR"
+  hour: "hour"
+  Subscription includes: "Subscription includes"
+  chat support software + its implementation into your web + software maintenance: "chat support software + its implementation into your web + software maintenance"
+  trained operators who will provide online customer support on your web: "trained operators who will provide online customer support on your web"
+  unlimited access to all chat support conversations: "unlimited access to all chat support conversations"
+  Get a 10% discount for recommending our service to our next client!: "Get a 10% discount for recommending our service to our next client!"
+  Have more websites? Get support for second website with 10% discount!: "Have more websites? Get support for second website with 10% discount!"
+  IMPORTANT INFO: "IMPORTANT INFO"
+  SPECIAL OFFERS: "SPECIAL OFFERS"
+  Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours): "Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours)"
+  Help: "Help"
+  Log in: "Log in"

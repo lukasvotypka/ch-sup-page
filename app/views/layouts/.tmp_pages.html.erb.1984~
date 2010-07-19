@@ -12,16 +12,11 @@
 <div id="top_navi">
 	<div id="top_navi_right_bg">&nbsp;</div>
 	<div class="wrapper">
-		<ul class="horizontal navigation">
-			<li><a href="http://<%= @server_domain %>.net:<%= request.port %>">EN</a></li>
-			<li>|</li>
-			<li><a href="http://<%= @server_domain %>.sk:<%= request.port %>">SK</a></li>
-			<li>|</li>
-			<li><a href=""><%=t("Help")%></a></li>
-			<li>|</li>
-			<li><%= link_to t("Log in"), pages_url(:customer_app) %></li>
-		</ul>
-
+	
+	<ul class="horizontal">
+		<li><%= link_to t("Operator aplication"), pages_url(:operator_app) %></li>
+		<li><%= link_to t("Customer zone"), pages_url(:customer_app) %></li>	
+	</ul>
 	<div class="clear"></div>
 	</div>
 </div>
@@ -65,7 +60,7 @@
 </div>
 
 <div id="foot">
-	<div class="wrapper">All rights reseved | <%= link_to t("Operator aplication"), pages_url(:operator_app) %></div>
+	<div class="wrapper">All rights reseved</div>
 </div>
 </body>
 </html>
