@@ -1,7 +1,7 @@
 html, body { background-color: #494949; color: #333; padding:0; margin:0; height: 100%;}
 
 body, p, ol, ul, td {
-  font-family: "Myriad pro",Tahoma, verdana, arial, helvetica, sans-serif;
+  font-family: "Myriad pro",arial,Tahoma, verdana, helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
 }
@@ -151,9 +151,9 @@ ul.horizontal li{
 }
 
 #navigation ul a{
-	font-size: 1.2em;
+	font-size: 15px;
 	font-weight: bold;
-	font-family: "Myriad pro", Tahoma;
+	font-family: "Myriad pro", arial,Tahoma;
 	text-decoration: none;
 	color: #bbbbbb;
 }
@@ -250,7 +250,7 @@ ul.horizontal li{
 	color: #323232;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	font-family: "Myriad pro", Tahoma;
+	font-family: "Myriad pro", arial, Tahoma;
 	font-weight:600;
 	text-align:center;
 }
@@ -279,7 +279,7 @@ ul.horizontal li{
 	margin:0.2em 0;
 	color: #9ad411;
 	font-size: 2em;
-	font-family: "Myriad pro", Tahoma;
+	font-family: "Myriad pro", arial, Tahoma;
 	font-weight:600;
 }
 
@@ -430,6 +430,7 @@ ul.horizontal li{
 #content .hiw .buble1 p{
 	margin: 10px 10px 10px 30px;
 	text-align: center;
+	font-size: 12px;
 }
 
 /* about us */
@@ -486,8 +487,8 @@ ul.horizontal li{
 }
 
 #content .about_us #jn{
-	top: 32px;
-	left: 600px;
+	top: 27px;
+	left: 590px;
 }
 
 #content .about_us .title{
@@ -526,7 +527,7 @@ ul.horizontal li{
 
 #content .prices .prices_items{
 	font-weight: 600;
-	font-size: 1.2em;
+	font-size: 13px;
 	text-transform: uppercase;
 	margin-top: 2em;
 	background: url(/images/web/prices/prices_bg.png) no-repeat left top;
@@ -580,7 +581,7 @@ ul.horizontal li{
 }
 
 #content .home .scene #buble p{
-	font-size:0.9em;
+	font-size:11px;
 	font-weight:600;
 	margin:5px 10px 20px;
 	text-align: center;
@@ -589,6 +590,6 @@ ul.horizontal li{
 
 #content .home .scene #person{
 	position: absolute;
-	bottom:-1px;
+	bottom:0px;
 	right:0px;
 }
