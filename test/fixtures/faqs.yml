@@ -1,11 +1,76 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  lang: MyString
-  question: MyText
-  answer: MyText
-
-two:
-  lang: MyString
-  question: MyText
-  answer: MyText
+--- 
+faqs_004: 
+  created_at: 2010-04-30 19:03:12
+  updated_at: 2010-07-19 09:32:19
+  id: "4"
+  lang: en
+  question: Why chat support rather than call centre?
+  answer: |-
+    1. Price. Not just the price on your end, but also on your customer's side.<br />
+    2. Many foreign customers prefer chat support services because of their ability to break through the language barrier more easily compared to listening<br /> 
+    3. "What is written is not forgotten" - Your clients will receive instructions in written form and therefore will be able to follow instructions better.
+faqs_005: 
+  created_at: 2010-04-30 19:03:37
+  updated_at: 2010-07-19 09:33:56
+  id: "5"
+  lang: en
+  question: What if my services change? How will your operators know about these changes?
+  answer: Our operators will monitor your website every day. We will also update info about your web to our operators every month and if you write us about upcoming changes our operators will be notified within 24 hours. We recommend you to contact us before you decide to change some important info on your web so that we could alert our operators in advance.
+faqs_006: 
+  created_at: 2010-04-30 19:04:03
+  updated_at: 2010-07-19 09:34:59
+  id: "6"
+  lang: en
+  question: Can I see clients chat history that you have with my clients?
+  answer: Yes! We offer all our customers instant access to chat support conversations that our operators have with your clients. You can use this service 24/7 from the comfort of your home.
+faqs_007: 
+  created_at: 2010-04-30 19:04:20
+  updated_at: 2010-07-19 09:35:46
+  id: "7"
+  lang: en
+  question: Are you able to provide more support for my web?
+  answer: At the moment we offer only chat support services. We are planning to expand our portfolio however we are not able to provide any exact time schedule yet.
+faqs_008: 
+  created_at: 2010-07-19 09:36:33
+  updated_at: 2010-07-19 09:36:33
+  id: "8"
+  lang: en
+  question: Are you able to provide chat support in more languages?
+  answer: "We are in the process of making our database of \xE2\x80\x9Cmulti-language\xE2\x80\x9D supporters. This depends on needs of our clients. If you are interested in multi language supporters please let us know and we will take all necessary steps to fulfill your needs."
+faqs_001: 
+  created_at: 2010-04-30 19:02:09
+  updated_at: 2010-07-19 09:28:44
+  id: "1"
+  lang: en
+  question: How can chat support improve my sales?
+  answer: |-
+    Depending on type of your business
+    reasons range
+    from assuring the transaction by walking your customer through the process
+    or
+    providing sales
+    support even during closing hours to making sure you do not loose your client when he gets confused on your web offering him an instant help.
+faqs_002: 
+  created_at: 2010-04-30 19:02:25
+  updated_at: 2010-07-19 09:29:55
+  id: "2"
+  lang: en
+  question: Why should I choose you?
+  answer: |-
+    There are many companies that offer chat support applications. However none of them offer outsourced operators that will actually do
+    full
+    chat
+    support on your web. We offer you a simple way to improve your web service and sales without worrying about premises prices, operator's wages,
+    operator's trainings, software cots, software maintenance, ...
+faqs_003: 
+  created_at: 2010-04-30 19:02:44
+  updated_at: 2010-07-19 09:31:04
+  id: "3"
+  lang: en
+  question: Why to have outsourced operators rather than my own?
+  answer: |-
+    Depending on type of your business our operators will be able to reach 60-90 %
+    of your own employers'
+    knowledge about your services. However
+    there is much more to know to provide professional online support. Our operators are highly trained to assure your web visitors feel comfortable and
+    safe on your web. Lastly, let's not forget the price that we are able to offer you operators for.

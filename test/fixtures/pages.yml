@@ -1,11 +1,28 @@
-# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
-one:
-  pos: 1
-  parent_page_id: 1
-  content: MyText
-
-two:
-  pos: 1
-  parent_page_id: 1
-  content: MyText
+--- 
+pages_001: 
+  created_at: 2010-04-30 17:36:42
+  title: Home
+  parent_page_id: 
+  updated_at: 2010-04-30 17:39:44
+  id: "1"
+  content: |-
+    <p>
+    Need chat support service for your web but cannot afford one? 
+    <p>
+    <p>
+    We will provide everything your web needs to offer professional chat support to your customers:
+    </p>
+    <ul>
+    
+    <li>chat support software</li>
+    <li>we will find operators according to your exact needs </li>
+    <li>train them</li>
+  pos: "1"
+pages_002: 
+  created_at: 
+  title: 
+  parent_page_id: 
+  updated_at: 
+  id: "2"
+  content: 
+  pos: 

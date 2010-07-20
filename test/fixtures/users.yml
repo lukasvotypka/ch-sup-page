@@ -1,0 +1,19 @@
+--- 
+users_001: 
+  created_at: 2010-07-20 11:54:23
+  last_request_at: 2010-07-20 12:43:39
+  crypted_password: 1f7f83fd2ce9e791e52dea4e8a721d9a5186acf1d3a7574c43ab4ea36a2bccd8da155ab49ed54f5db9b5078401a6096ba793fc2c1da77d6fb5bc7a82b92a911c
+  updated_at: 2010-07-20 12:43:39
+  fullname: 
+  role_id: 
+  current_login_ip: 127.0.0.1
+  failed_login_count: "0"
+  id: "1"
+  current_login_at: 2010-07-20 12:43:20
+  password_salt: 5kvPIqSNAzno0vYKrbYE
+  login_count: "10"
+  persistence_token: ca465be0d56fdbfbdcbd8d0890533e6a04ae7cabec94f5bcf6681d3ca4c5115f4ea02606f6ad12d2091f72be2df58844f9533060cf777a35cd99128bf1af3586
+  last_login_ip: 127.0.0.1
+  last_login_at: 2010-07-20 12:07:29
+  login: luigi
+  email: lukas.votypka@gmail.com
