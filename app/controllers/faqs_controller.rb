@@ -24,7 +24,7 @@ class FaqsController < AdminController
   # GET /faqs/new
   # GET /faqs/new.xml
   def new
-    @faq = Faq.new({:lang=>"en"})
+    @faq = Faq.new({:lang=>get_locale_mark})
 
     respond_to do |format|
       format.html # new.html.erb
