@@ -1,4 +1,4 @@
-class PricesController < ApplicationController
+class PricesController < AdminController
   # GET /prices
   # GET /prices.xml
   def index

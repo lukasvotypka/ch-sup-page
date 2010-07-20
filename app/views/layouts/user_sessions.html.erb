@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <title>Prices: <%= controller.action_name %></title>
+  <%= stylesheet_link_tag 'admin' %>
+</head>
+<body>
+
+<div>
+	<div class="wrapper">
+		<img src="/images/logo_buble.png" height="100px" />
+	</div>
+</div>
+
+<div id="navigation">
+	<div class="wrapper">
+	<ul class="horizontal">
+		<li><%= link_to t('Home'), :root %></li>
+	</ul>
+	</div>
+</div>
+
+<div class="clear"></div>
+
+<div id="content">
+	<div class="wrapper">
+		<p style="color: green"><%= flash[:notice] %></p>
+		
+		<%= yield %>
+	</div>
+</div>
+
+
+</body>
+</html>

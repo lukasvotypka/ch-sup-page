@@ -1,12 +1,19 @@
 ActionController::Routing::Routes.draw do |map|
+  
+  map.resources :users
+  
+  map.resource :user_session
+  
+  map.access_denied "denied", :controller => "user_sessions", :action => "denied"
+  
   map.resources :prices
 
 
   map.resources :news_letters
-
   
-  #TODO spravit autentifikaciu, potom odkomentovat!
-  #map.resources :faqs
+  map.admin 'admin/:controller', :controller => 'admin'
+
+  map.resources :faqs
 
   #map.resources :pages
 
@@ -49,7 +56,7 @@ ActionController::Routing::Routes.draw do |map|
   
   
   
-#  map.root :controller => "pages"
+  map.root :controller => "pages"
   
   map.pages ':action', :controller=>"pages", :collection => { 
       :price => :get,

@@ -1,4 +1,4 @@
-class FaqsController < ApplicationController
+class FaqsController < AdminController
   # GET /faqs
   # GET /faqs.xml
   def index
