@@ -30,7 +30,7 @@
 <div id="top">
 	<div class="wrapper">
 		<div id="logo"><a href=""><img src="/images/web/logo.png" alt="<%= t(:home_link)%>" /></a></div>
-		<div class="slogan"><%= t("Need chat support for your web") %></div>
+		<div class="slogan"><%= t("Need chat support for your web") %><br /><%= t("but cannot affor one?")%></div>
 		<div id="bulb"><img src="/images/web/bulb.png" alt="bulb" /></div>
 	</div>	
 </div>

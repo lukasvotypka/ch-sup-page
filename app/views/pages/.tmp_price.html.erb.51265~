@@ -4,16 +4,12 @@
 	
 	<div class="text_wrapper">
 		<div class="prices_items">
-			<div class="price_items_wrapper">
-			<% i = 0 %>
 			<% @prices.each do |price| %>
-				<div class="price_item pi<%= i %>">
+				<div class="price_item">
 					<%= price.hours %> <%= t("hours") %> / <%= t("day") %> 
 					<%= price.price %> <%= t("EUR") %>/<%= t("hour")%>  
 				</div>
-				<% i+=1  %>
 			<% end %>
-			</div>
 		</div>
 		
 		

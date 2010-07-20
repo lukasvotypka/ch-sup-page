@@ -3,7 +3,7 @@
 
 en:
   hello: "Hello world"
-  Need chat support for your web: "Need chat support for your web"
+  Need chat support for your web: "Need chat support for your web <br /> but cannot afford one?"
   but cannot affor one?: "but cannot afford one?"
   home_link: "chat-support.net"
   Operator aplication: "Operator aplication"

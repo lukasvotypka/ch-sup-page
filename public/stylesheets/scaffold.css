@@ -1,4 +1,4 @@
-html, body { background-color: #fff; color: #333; padding:0; margin:0; height: 100%;}
+html, body { background-color: #494949; color: #333; padding:0; margin:0; height: 100%;}
 
 body, p, ol, ul, td {
   font-family: "Myriad pro",verdana, arial, helvetica, sans-serif;
@@ -114,7 +114,7 @@ ul.horizontal li{
 }
 
 #top .wrapper{
-	 background: url(/images/web/top_bg.gif) no-repeat 306px 0px;
+	 background: url(/images/web/top_bg.jpg) no-repeat 260px -40px;
 	 display: block;
 	 height: 214px;
 }
@@ -127,7 +127,7 @@ ul.horizontal li{
 
 #top .slogan{
 	position: absolute;
-	left:413px;
+	left:400px;
 	top:51px;
 	color: #c6c6c6;
 	font-size: 1.3em;
@@ -328,10 +328,12 @@ ul.horizontal li{
 }
 
 #content .contact_us .contact_now{
-	margin-left: 16em;
+	margin-left: 5em;
 	font-size: 1.3em;
 	text-transform:uppercase;
 	font-weight:600;
+	width:26em;
+	text-align:right;
 }
 
 #content .contact_us .scene{
@@ -506,7 +508,7 @@ ul.horizontal li{
 /* prices */
 
 #content .prices{
-	height:55ex;
+	height:75ex;
 	position:relative;
 }
 
@@ -527,7 +529,34 @@ ul.horizontal li{
 	font-size: 1.2em;
 	text-transform: uppercase;
 	margin-top: 2em;
+	background: url(/images/web/prices/prices_bg.png) no-repeat left top;
+	width: 311px;
+	height: 138px;
+	line-height: 33px;
+	position: relative;
+	color: #eeeeee;
 }
+
+#content .prices .price_items_wrapper{
+	left:45px;
+	position:absolute;
+	text-align:center;
+	top:15px;
+}
+
+#content .prices .prices_items .pi0{
+	
+}
+
+#content .prices .prices_items .pi1{
+	
+}
+
+#content .prices .prices_items .pi2{
+	
+}
+
+
 
 /* home */
 

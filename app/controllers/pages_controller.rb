@@ -31,7 +31,7 @@ class PagesController < PublicWebController
   def faq
     @title = t("FAQ")
     @slogan = t(:slogan_faq)
-    @faqs = Faq.all
+    @faqs = Faq.all(:conditions=>{'lang'=> get_locale_mark})
     respond_to do |format|
       format.html
     end

@@ -19,4 +19,9 @@ class PublicWebController < ApplicationController
     parsed_locale = request.host.split('.').last
     (available_locales.include? parsed_locale) ? parsed_locale  : nil
   end
+  
+  def get_locale_mark
+    I18n.locale.to_s
+  end
+  
 end
