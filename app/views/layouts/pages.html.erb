@@ -14,9 +14,9 @@
 	<div id="top_navi_right_bg">&nbsp;</div>
 	<div class="wrapper">
 		<ul class="horizontal navigation">
-			<li><a href="http://<%= @server_domain %>.net:<%= request.port %>">EN</a></li>
+			<li><a href="http://www.chat-support.net">EN</a></li>
 			<li>|</li>
-			<li><a href="http://<%= @server_domain %>.sk:<%= request.port %>">SK</a></li>
+			<li><a href="http://www.chat-support.sk">SK</a></li>
 			<li>|</li>
 			<li><a href=""><%=t("Help")%></a></li>
 			<li>|</li>
@@ -66,7 +66,7 @@
 </div>
 
 <div id="foot">
-	<div class="wrapper">&copy; 2010 Chat-support.net | <%= link_to t("Operator aplication"), pages_url(:operator_app) %> | 
+	<div class="wrapper">&copy; 2010 <%= request.host %> | <%= link_to t("Operator aplication"), pages_url(:operator_app) %> | 
 		<%= link_to "Site CMS", :admin %>
 	</div>
 </div>

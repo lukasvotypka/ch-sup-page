@@ -8,7 +8,7 @@
 			<% i = 0 %>
 			<% @prices.each do |price| %>
 				<div class="price_item pi<%= i %>">
-					<%= price.hours %> <%= t("hours") %> / <%= t("day") %> 
+					<%= price.hours %> <%= t("hours") %>/<%= t("day") %>&nbsp; 
 					<%= price.price %> <%= t("EUR") %>/<%= t("hour")%>  
 				</div>
 				<% i+=1  %>
@@ -18,7 +18,7 @@
 		
 		
 		<p>
-			<%= t("Subscription includes") %>:
+			<b><%= t("Subscription includes") %>:</b>
 			<ul>
 				<li><%= t("chat support software + its implementation into your web + software maintenance") %></li>
 				<li><%= t("trained operators who will provide online customer support on your web") %></li>
@@ -27,14 +27,14 @@
 		</p>
 		
 		<p>
-			<%= t("SPECIAL OFFERS") %>:
+			<b><%= t("SPECIAL OFFERS") %>:</b>
 			<ul>
 				<li><%= t("Get a 10% discount for recommending our service to our next client!") %></li>
 				<li><%= t("Have more websites? Get support for second website with 10% discount!") %></li>
 			</ul>
 		</p>
 		
-		<p><%= t("IMPORTANT INFO") %>:
+		<p><b><%= t("IMPORTANT INFO") %>:</b>
 		<%= t("Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours)") %></p>
 	</div>	
 	

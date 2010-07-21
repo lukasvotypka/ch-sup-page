@@ -324,7 +324,7 @@ ul.horizontal li{
 
 #content .contact_us .hr{
 	border-bottom: 1px solid #2b2b2b;
-	width: 500px;
+	width: 100%;
 }
 
 #content .contact_us .contact_now{
@@ -360,6 +360,7 @@ ul.horizontal li{
 
 #content .contact_us .scene .buble p{
 	font-size: 0.9em;
+	text-align: center;
 }
 
 #content .contact_us .scene .buble1{
@@ -415,7 +416,7 @@ ul.horizontal li{
 #content .hiw .scene{
 	position:absolute;
 	bottom:-30px;
-	left:150px;
+	left:110px;
 }
 
 #content .hiw .buble1{
@@ -562,7 +563,7 @@ ul.horizontal li{
 /* home */
 
 #content .home{
-	height: 400px;
+	height: 500px;
 	position:relative;
 }
 
@@ -576,8 +577,8 @@ ul.horizontal li{
 	right: 20px;
 	bottom: 140px;
 	background: url(/images/web/home/home_buble.png) no-repeat top left;
-	width: 95px;
-	height: 56px;
+	width: 120px;
+	height: 80px;
 }
 
 #content .home .scene #buble p{
