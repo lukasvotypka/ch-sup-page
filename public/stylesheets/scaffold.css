@@ -539,10 +539,19 @@ ul.horizontal li{
 	color: #eeeeee;
 }
 
+#content .prices .prices_items .left{
+	float: left;
+	width: 40%;
+}
+
+#content .prices .prices_items .right{
+	float: right;
+	width: 40%;
+}
+
 #content .prices .prices_items em{
 	font-size: 15px;
 	font-style: normal;
-	margin-left: 35px;
 }
 
 #content .prices .price_items_wrapper{
@@ -550,6 +559,7 @@ ul.horizontal li{
 	position:absolute;
 	text-align:center;
 	top:15px;
+	width:228px;
 }
 
 #content .prices .prices_items .pi0{

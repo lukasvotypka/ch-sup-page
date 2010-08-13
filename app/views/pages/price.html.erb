@@ -8,8 +8,13 @@
 			<% i = 0 %>
 			<% @prices.each do |price| %>
 				<div class="price_item pi<%= i %>">
-					<%= price.hours %> <%= t("hours") %>/<%= t("day") %>&nbsp; 
-					<em><%= price.price %></em> <%= t("EUR") %>/<%= t("hour")%>  
+					<div class="left"> 
+						<%= price.hours %> <%= t("hours") %>/<%= t("day") %>
+					</div>
+					<div class="right">  
+						<em><%= price.price %></em> <%= t("EUR") %>/<%= t("hour")%>
+					</div>
+					<div class="clear"></div>  
 				</div>
 				<% i+=1  %>
 			<% end %>
