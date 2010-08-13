@@ -541,12 +541,12 @@ ul.horizontal li{
 
 #content .prices .prices_items .left{
 	float: left;
-	width: 40%;
+	display: inline;
 }
 
 #content .prices .prices_items .right{
 	float: right;
-	width: 40%;
+	display: inline;
 }
 
 #content .prices .prices_items em{
