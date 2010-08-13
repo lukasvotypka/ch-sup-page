@@ -17,7 +17,7 @@
 	<li><%= t("implementation of chat support client into your web") %></li>
 	<li><%= t("24/7 access to all chat support conversations") %></li>
 	</ul>
-	<%= t("All for unbeatable" )%> <%= link_to t("prices!"), pages_url(:price) %> 
+	<%= link_to t("All for unbeatable prices!"), pages_url(:price) %> 
 	
 	
 	<div class="scene">

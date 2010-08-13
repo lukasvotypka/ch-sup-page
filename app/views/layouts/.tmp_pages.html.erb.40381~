@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta name="google-site-verification" content="usgXx1BIIPe9fBxJtr68Gw0Gk_YiuToxJ_sO7eeIv7g" />
+  <title>Chat-support.net: <%= @title %></title>
+  <%= stylesheet_link_tag 'scaffold' %>
+</head>
+<body>
+
+<div id="top_navi">
+	<div id="top_navi_right_bg">&nbsp;</div>
+	<div class="wrapper">
+		<ul class="horizontal navigation">
+			<li><a href="http://www.chat-support.net">EN</a></li>
+			<li>|</li>
+			<li><a href="http://www.chat-support.sk">SK</a></li>
+			<li>|</li>
+			<li><a href=""><%=t("Help")%></a></li>
+			<li>|</li>
+			<li><%= link_to t("Log in"), pages_url(:customer_app) %></li>
+		</ul>
+
+	<div class="clear"></div>
+	</div>
+</div>
+
+
+<div id="top">
+	<div class="wrapper">
+		<div id="logo"><a href=""><img src="/images/web/logo.png" alt="<%= t(:home_link)%>" /></a></div>
+		<div class="slogan"><%= t("Need chat support for your web") %></div>
+		<div id="bulb"><img src="/images/web/bulb.png" alt="bulb" /></div>
+	</div>	
+</div>
+<div id="navigation">
+	<div class="wrapper">
+		<ul class="horizontal">
+			<li><div id="index_tab" <%= "class=\"s\"" if params[:action] == "index" %>><%= link_to t("Home"), pages_url(:index) %></div></li>
+			<li><div id="prices_tab" <%= "class=\"s\"" if params[:action] == "price" %>><%= link_to t("Prices"), pages_url(:price) %></div></li>
+			<li><div id="how_it_works_tab" <%= "class=\"s\"" if params[:action] == "how_it_works" %>><%= link_to t("How it works"), pages_url(:how_it_works) %></div></li>
+			<li><div id="about_us_tab" <%= "class=\"s\"" if params[:action] == "about_us" %>><%= link_to t("About us"), pages_url(:about_us) %></div></li>
+			<li class="l_margin"><div id="faq_tab" class="<%= "s" if params[:action] == "faq" %>"><%= link_to t("FAQ"), pages_url(:faq) %></div></li>
+			<li><div id="contact_us_tab" <%= "class=\"s\"" if params[:action] == "contact" %> ><%= link_to t("Contact us"), pages_url(:contact) %></div></li>
+		</ul>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div id="greenfield">
+	<div class="right_bg"></div>
+	<div class="wrapper">
+		<div class="slogan"><%= @slogan %></div>
+	</div>
+</div>
+
+<div id="content">
+	<div class="wrapper">
+		<div class="page_content">
+			<%= yield %>
+		</div>
+	</div>
+	<div class="clear"></div>
+</div>
+
+<div id="foot">
+	<div class="wrapper">&copy; 2010 <%= request.host %> | <%= link_to t("Operator aplication"), pages_url(:operator_app) %> | 
+		<%= link_to "Site CMS", :admin %>
+	</div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17077397-1']);
+  _gaq.push(['_setDomainName', '.chat-support.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

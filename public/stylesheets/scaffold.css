@@ -539,6 +539,12 @@ ul.horizontal li{
 	color: #eeeeee;
 }
 
+#content .prices .prices_items em{
+	font-size: 15px;
+	font-style: normal;
+	margin-left: 35px;
+}
+
 #content .prices .price_items_wrapper{
 	left:45px;
 	position:absolute;
@@ -565,6 +571,10 @@ ul.horizontal li{
 #content .home{
 	height: 500px;
 	position:relative;
+}
+
+#content .home p{
+	text-align: justify;
 }
 
 #content .home .scene{
