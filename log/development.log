@@ -20011,3 +20011,15 @@ Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 17:03:47) [GET]
 Rendering template within layouts/pages
 Rendering pages/contact
 Completed in 73ms (View: 68, DB: 0) | 200 OK [http://localhost.sk/contact]
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2010-08-13 17:09:42) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 44ms (View: 34, DB: 2) | 200 OK [http://localhost.sk/price]
