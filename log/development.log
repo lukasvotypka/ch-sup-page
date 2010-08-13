@@ -19875,3 +19875,139 @@ Rendering template within layouts/pages
 Rendering pages/price
   [4;35;1mPrice Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
 Completed in 43ms (View: 34, DB: 2) | 200 OK [http://localhost.sk/price]
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#how_it_works (for 127.0.0.1 at 2010-08-13 16:50:13) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/how_it_works
+Completed in 37ms (View: 31, DB: 0) | 200 OK [http://localhost.sk/how_it_works]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#how_it_works (for 127.0.0.1 at 2010-08-13 16:53:59) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/how_it_works
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-08-13 16:54:03) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 77ms (View: 71, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-08-13 16:54:24) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-08-13 16:55:17) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-08-13 16:56:20) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-08-13 16:56:22) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2010-08-13 16:56:37) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 16:57:46) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 16:59:30) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 17:00:09) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 17:02:43) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 17ms (View: 11, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 17:03:27) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 17:03:38) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost.net/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-08-13 17:03:47) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "index"=>:get, "about_us"=>:get, "operator_app"=>:get, "how_it_works"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 73ms (View: 68, DB: 0) | 200 OK [http://localhost.sk/contact]

@@ -2,7 +2,7 @@ sk:
   hello: "Ahoj svet"
   Need chat support for your web: "Chcete poskytovať on-line pomoc na stránke, no nemôžete si to dovoliť?"
   but cannot affor one?: ""
-  home_link: "chatsupport.sk"
+  home_link: "chat-support.sk"
   Operator aplication: "Operator aplication"
   Customer zone: "Login"
   Home: "Domov"
@@ -22,6 +22,8 @@ sk:
   sales: "Obchodné oddelenie"
   address: "Sídlo"
   or contact us online now!: "Alebo kontaktujte našu on-line pomoc"
+  Holleho 2, Zvolen, Slovakia: "Hollého 2, Zvolen"
+  ico: ičo
   contact_buble1: Pomáhajte návštevníkom stránky aj mimo otváracích hodín!
   contact_buble2: Ubezpečte sa, že návštevník uzatvorí transakciu. Navigujte ho počas celého procesu!
   hiw_buble: Zadarmo Vám pomôžeme implementovať našu aplikáciu!
@@ -33,14 +35,14 @@ sk:
   section or do not hesitate to: alebo neváhajte kontaktovať naše
   contact us online now!: stredisko on-line pomoci a otestujte si nás v praxi!
   contact us online now: stredisko on-line pomoci a otestujte si nás v praxi
-  about_us_text: Po rokoch skúsenosti s poskytovaním on-line pomoci pre zahraničné firmy ako “mimo-firemní operátori” sme si uvedomili, že by naše služby mohli byt užitočné pre mnohé iné stránky, ktoré nie sú schopné vytvoriť vlastné chat support oddelenie. Sme mladý, ambiciózny a vysokoškolsky vzdelaný tím plný entuziazmu a odhodlania. Na rozdiel od konkurencie Vám ponúkame nielen chat support software, ale komplexné riešenie otázky poskytovania live pomoci zákazníka bez toho, aby ste sa museli zaoberať mzdami operátorov, ich zaškolením, údržbou chat support aplikácie, … . Boli sme založení v roku 2010 avšak všetci naši operátori majú skúsenosti s poskytovaním on-line pomoci, alebo sú pod neustálym dohľadom skúseného školiteľa. Našim cieľom je zmeniť návštevníkov Vašej stránky na Vašich zákazníkov!
-  about_co-founders: Spoluzakladatelia chatsupport.sk
+  about_us_text: Po rokoch skúseností s poskytovaním on-line pomoci pre zahraničné firmy ako “mimo-firemní operátori” sme si uvedomili, že by naše služby mohli byť užitočné pre mnohé iné stránky, ktoré nie sú schopné vytvoriť vlastné chat support oddelenie. Sme mladý, ambiciózny a vysokoškolsky vzdelaný tím plný entuziazmu a odhodlania. Na rozdiel od konkurencie Vám ponúkame nielen chat support software, ale komplexné riešenie otázky poskytovania live pomoci zákazníka bez toho, aby ste sa museli zaoberať mzdami operátorov, ich zaškolením, údržbou chat support aplikácie, … . Boli sme založení v roku 2010 avšak všetci naši operátori majú skúsenosti s poskytovaním on-line pomoci, alebo sú pod neustálym dohľadom skúseného školiteľa. Našim cieľom je zmeniť návštevníkov Vašej stránky na Vašich zákazníkov!
+  about_co-founders: Spoluzakladatelia chat-support.sk
   about_senior: Senior operátori
   Increase web sales now: Zvýšte svoj zisk!
   All for unbeatable: "Všetko za bezkonkurenčné" 
   prices!: "ceny!"
   
-  home_text1: "95% nových návštevníkov opúšťa internetovú stránku v priebehu 2 minút!  Či už ide o internetový obchod, realitnú kanceláriu, alebo software support, pomôžeme Vám zmeniť návštevníkov Vašej stránky na Vašich zákazníkov. Chatsupport.sk je jednoduché riešenie ako poskytovat pomoc zákazníkom mimo otváracích hodín bez toho, aby ste sa museli zaoberať prevádzkovými nákladmi spojenými s poskytovaním live chat pomoci na Vašej stránke. Dovoľte nám a našim profesionálne zaškoleným operátorom poskytovať on-line služby a pomoc na Vašej stránke za Vás!"
+  home_text1: "95% nových návštevníkov opúšťa internetovú stránku v priebehu 2 minút!  Či už ide o internetový obchod, realitnú kanceláriu, alebo software support, pomôžeme Vám zmeniť návštevníkov Vašej stránky na Vašich zákazníkov. Chat-support.sk je jednoduché riešenie ako poskytovat pomoc zákazníkom mimo otváracích hodín bez toho, aby ste sa museli zaoberať prevádzkovými nákladmi spojenými s poskytovaním live chat pomoci na Vašej stránke. Dovoľte nám a našim profesionálne zaškoleným operátorom poskytovať on-line služby a pomoc na Vašej stránke za Vás!"
   home_We will provide everything your website needs to offer live chat support to your potential customers: "Zabezpečíme všetko potrebné pre poskytovanie profesionálnej on-line pomoci zákazníkom"
   chat support software + maintenance: "chat support aplikácia + údržba"
   professionally trained operators chosen to your exact needs: "profesionálne zaškolených operátorov vybraných presne podľa Vašich potrieb"
@@ -54,7 +56,7 @@ sk:
   chat support software + its implementation into your web + software maintenance: "chat support aplikácia + implementácia do štruktúry stránky + údržba aplikácie"
   trained operators who will provide online customer support on your web: "profesionálne zaškolených operátorov, ktorí budú prevádzkovať pomoc zákazníkom na Vašej stránke"
   unlimited access to all chat support conversations: "neobmedzený prístup ku všetkým konverzáciám zákazníkov"
-  Get a 10% discount for recommending our service to our next client!: "Získajte 10 % zľavu za doporučenie chatsupport.sk nášmu ďalšiemu klientovi!"
+  Get a 10% discount for recommending our service to our next client!: "Získajte 10 % zľavu za doporučenie chat-support.sk nášmu ďalšiemu klientovi!"
   Have more websites? Get support for second website with 10% discount!: "Máte viac stránok? Využite zľavu 10% na každú ďaľšiu stránku!"
   IMPORTANT INFO: "Dôležité upozornenie"
   SPECIAL OFFERS: "ŠPECIÁLNE PONUKY"

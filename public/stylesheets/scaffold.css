@@ -499,7 +499,11 @@ ul.horizontal li{
 }
 
 #content .about_us #co_founder{
-	left: 65px;
+	left: 54px;
+}
+
+#content .about_us #co_founder span{
+	text-transform: none;
 }
 
 #content .about_us #senior{
