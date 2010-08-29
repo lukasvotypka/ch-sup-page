@@ -54,7 +54,7 @@ class PagesController < PublicWebController
   end
   
   def operator_app
-    redirect_to('http://operators.chat-support.net')
+    redirect_to('http://support.chat-support.net/chatsupport/Operators.html')
   end
   
   def customer_app
