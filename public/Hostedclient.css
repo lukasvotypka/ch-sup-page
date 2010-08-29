@@ -1,0 +1,57 @@
+html, body{
+	
+	position: relative;
+}
+
+.chatsupport-messenger{
+	
+}
+
+.chatsupport-messenger iframe{
+	
+	margin: 0;
+	padding: 0;
+}
+
+img.chsp_logo1{
+	position: absolute;
+	right: 16px;
+	top: -58px;
+	cursor: pointer;
+}
+
+.chsp_title{
+	position: absolute;
+	right:55px;
+	top: 22px;
+	color: #FFF;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.controllers-links{
+	position: absolute;
+	right: 153px;
+	top:22px;
+}
+
+.controllers-links img{
+	cursor: pointer;
+	margin: 1px;
+}
+
+.minimal{
+	cursor: pointer;
+}
+
+.minimal-title{
+	position: absolute;
+	top: 4px;
+	right: 24px;
+}
+
+.mimimal-bg{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
