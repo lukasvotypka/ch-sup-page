@@ -1,0 +1,35 @@
+<div class="hiw">
+	<h2><%= t("How it works") %></h2>
+	
+	
+	
+	<div class="scene">
+		<img src="/images/web/hiw/hiw_ivan_offer.png" >
+	</div>
+	
+	<div class="offer visitor"><%= link_to '<em> '+t("When website visitor contacts our live support.")+'</em>', how_it_works_url(:visitor) %></div>
+	<div class="offer customer"><%= link_to '<em> '+t("When you want to use our services.")+'</em>', how_it_works_url(:customer) %></p></div>
+	
+	<script type="text/javascript">
+		var AnimateOption = Class.create({
+			el: null,
+			initialize: function(el) {
+				this.el = el;
+				el.observe('mouseover', this.handleMouseOver.bind(this));
+				el.observe('mouseout', this.handleMouseOut.bind(this));
+			},
+			handleMouseOver: function(event) {
+				new Effect.Morph(this.el, {style:'top: 100px', duration:0.4});
+			},
+			handleMouseOut: function(event) {
+				new Effect.Morph(this.el, {style:'top: 117px', duration:0.4});
+			}
+		});
+		
+		new AnimateOption($$(".hiw .visitor")[0]);
+		new AnimateOption($$(".hiw .customer")[0]);
+
+	</script>
+
+
+</div>

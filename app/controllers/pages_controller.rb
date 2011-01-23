@@ -20,14 +20,6 @@ class PagesController < PublicWebController
     end
   end
   
-  def how_it_works
-    @title = t("How it works")
-    @slogan = t(:slogan_how_it_works)
-    respond_to do |format|
-      format.html
-    end
-  end
-  
   def faq
     @title = t("FAQ")
     @slogan = t(:slogan_faq)
@@ -54,7 +46,7 @@ class PagesController < PublicWebController
   end
   
   def operator_app
-    redirect_to('http://support.chat-support.net/chatsupport/Operators.html')
+    redirect_to('http://a.chat-support.net/chatsupport/Operators.html')
   end
   
   def customer_app

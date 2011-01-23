@@ -7,6 +7,10 @@
   <meta name="google-site-verification" content="usgXx1BIIPe9fBxJtr68Gw0Gk_YiuToxJ_sO7eeIv7g" />
   <title>Chat-support.net: <%= @title %></title>
   <%= stylesheet_link_tag 'scaffold' %>
+  <%= stylesheet_link_tag 'lightbox' %>
+  <%= javascript_src_tag 'prototype', {} %>
+  <%= javascript_src_tag 'scriptaculous', {} %>
+  <%= javascript_src_tag 'lightbox', {} %>
 
   <link type="text/css" rel="stylesheet" href="http://support.chat-support.net/chatsupport/Hostedclient.css">
   <script type="text/javascript" language="javascript" src="http://support.chat-support.net/chatsupport/hostedclient/hostedclient.nocache.js"></script>
@@ -45,9 +49,9 @@
 <div id="navigation">
 	<div class="wrapper">
 		<ul class="horizontal">
-			<li><div id="index_tab" <%= "class=\"s\"" if params[:action] == "index" %>><%= link_to t("Home"), pages_url(:index) %></div></li>
+			<li><div id="index_tab" <%= "class=\"s\"" if params[:action] == "index" and params[:controller] == "pages" %>><%= link_to t("Home"), pages_url(:index) %></div></li>
 			<li><div id="prices_tab" <%= "class=\"s\"" if params[:action] == "price" %>><%= link_to t("Prices"), pages_url(:price) %></div></li>
-			<li><div id="how_it_works_tab" <%= "class=\"s\"" if params[:action] == "how_it_works" %>><%= link_to t("How it works"), pages_url(:how_it_works) %></div></li>
+			<li><div id="how_it_works_tab" <%= "class=\"s\"" if params[:controller] == "HowItWorks" %>><%= link_to t("How it works"), how_it_works_url(:section) %></div></li>
 			<li><div id="about_us_tab" <%= "class=\"s\"" if params[:action] == "about_us" %>><%= link_to t("About us"), pages_url(:about_us) %></div></li>
 			<li class="l_margin"><div id="faq_tab" class="<%= "s" if params[:action] == "faq" %>"><%= link_to t("FAQ"), pages_url(:faq) %></div></li>
 			<li><div id="contact_us_tab" <%= "class=\"s\"" if params[:action] == "contact" %> ><%= link_to t("Contact us"), pages_url(:contact) %></div></li>

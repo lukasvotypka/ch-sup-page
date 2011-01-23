@@ -65,6 +65,22 @@ en:
   Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours): "Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours)"
   Help: "Help"
   Log in: "Log in"
+  
+  When website wisitor contacts our live support: "When website wisitor contacts our live support"
+  hiw_visitor_step1_text: "Website visitor will click on our „Need help?“ client that will be implemented into your website for free. Our operators will then be able to provide instant help"
+  hiw_visitor_step1_title: "One click away from instant help..."
+  hiw_visitor_step2_title: "Instant instructions, successful transactions..."
+  hiw_visitor_step2_text: "Visitors of your website will receive instant instructions in written form. This will help to avoid loosing potential customer when he gets confused on your web."
+  When you want to use our services: "When you want to use our services"
+  
+  hiw_customer_step1_title: "Operators chosen according to needs of your business..."
+  hiw_customer_step1_text: "Tell us about your business so that we could find chat support operators according to your exact needs."
+  hiw_customer_step2_title: "Customer support exactly how you want it..."
+  hiw_customer_step2_text: "Tell us about FAQs of your visitors and about problems they face. Feel free to train our senior operator about your services so that we could provide customer support exactly how you want us to."
+  hiw_customer_step3_title: "Easy implementation of our client..."
+  hiw_customer_step3_text: "Simply paste code of our „supporting client“ into html code of your website."
+  hiw_customer_step4_title: "24/7 access to all conversations..."
+  hiw_customer_step4_text: "Choose date when you want us to start supporting your web. Monitor all conversations that our operators have with your website visitors anytime you want using our customer's plattform."
 
   #admin
   Users: "Users"
