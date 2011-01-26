@@ -1,5 +1,33 @@
 html, body { background-color: #494949; color: #333; padding:0; margin:0; height: 100%;}
 
+@font-face {
+  font-family: 'CartoGothicStd BoldItalic';
+  src: url(CartoGothicStd BoldItalic);
+  src: local('CartoGothicStd BoldItalic'), local('CartoGothicStd BoldItalic'), 
+         url(/stylesheets/fonts/CartoGothicStd-BoldItalic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CartoGothicStd Bold';
+  src: url(CartoGothicStd Bold);
+  src: local('CartoGothicStd Bold'), local('CartoGothicStd Bold'), 
+         url(/stylesheets/fonts/CartoGothicStd-Bold.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CartoGothicStd Italic';
+  src: url(CartoGothicStd Italic);
+  src: local('CartoGothicStd Italic'), local('CartoGothicStd Italic'), 
+         url(/stylesheets/fonts/CartoGothicStd-Italic.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'CartoGothicStd';
+  src: url(CartoGothicStd);
+  src: local('CartoGothicStd'), local('CartoGothicStd'), 
+         url(/stylesheets/fonts/CartoGothicStd.otf) format('opentype');
+}
+
 body, p, ol, ul, td {
   font-family: "Myriad pro",arial,Tahoma, verdana, helvetica, sans-serif;
   font-size:   13px;
@@ -495,6 +523,14 @@ ul.horizontal li{
 	top: 14px;
 	left: 40px;
 	width: 285px;
+}
+
+#content .hiw .window .text h3{
+	font-family: 'CartoGothicStd BoldItalic';
+}
+
+#content .hiw .window .text p{
+	font-family: 'CartoGothicStd';
 }
 
 #content .hiw .window .numbering{
