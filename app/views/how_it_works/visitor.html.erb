@@ -3,20 +3,29 @@
 	
 	<div class="window step1">
 		<div class="text">
-			<h3><%= t("hiw_visitor_step1_title")%></h3>
+			<h3><blockquote><%= t("hiw_visitor_step1_title")%></blockquote></h3>
 			<p><%= t("hiw_visitor_step1_text")%></p>
 		</div>
-		<div class="picture"><a rel="lightbox" href="/images/web/hiw/visitor/pict_1_full.png"><img src="/images/web/hiw/visitor/pict_1.png" alt="step1" /></a></div>
+		<div class="picture"><a class="fancybox" href="/images/web/hiw/visitor/pict_1_full.png"><img src="/images/web/hiw/visitor/pict_1.png" alt="step1" /></a></div>
 		<div class="numbering"><img src="/images/web/hiw/visitor/numbering_1.png" alt="1"></div>
 	</div>
 	
 	<div class="window step2">
 		<div class="text">
-			<h3><%= t("hiw_visitor_step2_title")%></h3>
+			<h3><blockquote><%= t("hiw_visitor_step2_title")%></blockquote></h3>
 			<p><%= t("hiw_visitor_step2_text")%></p>
 		</div>
-		<div class="picture"><a rel="lightbox" href="/images/web/hiw/visitor/pict_2_full.png"><img src="/images/web/hiw/visitor/pict_2.png" alt="step2" /></a></div>
+		<div class="picture"><a class="fancybox" href="/images/web/hiw/visitor/pict_2_full.png"><img src="/images/web/hiw/visitor/pict_2.png" alt="step2" /></a></div>
 		<div class="numbering"><img src="/images/web/hiw/visitor/numbering_2.png" alt="2"></div>		
 	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".fancybox").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic'
+			});
+		});
+	</script>
 	
 </div>

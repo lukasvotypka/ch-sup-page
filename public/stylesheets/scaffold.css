@@ -34,6 +34,11 @@ body, p, ol, ul, td {
   line-height: 18px;
 }
 
+blockquote{
+	margin:0;
+	padding:0;
+}
+
 pre {
   background-color: #eee;
   padding: 10px;
@@ -492,10 +497,18 @@ ul.horizontal li{
 	font-size: 12px;
 }
 
-/* hiw visitor */
+#content .hiw h3 blockquote:first-letter{
+	background: url(/images/web/hiw/quotation_up.png) no-repeat top left;
+	padding-left: 18px;
+	padding-top: 10px;	
+	width:18px;
+	height: 14px;
+}
 
-#content .hiw_visitor{
-	height: 500px;
+#content .hiw h3 blockquote{
+	background: url(/images/web/hiw/quotation_down.png) no-repeat bottom right;
+	text-indent: -18px;
+	margin-left: 18px;
 }
 
 #content .hiw h2 em{
@@ -527,6 +540,7 @@ ul.horizontal li{
 
 #content .hiw .window .text h3{
 	font-family: 'CartoGothicStd BoldItalic';
+	margin-top: 20px;
 }
 
 #content .hiw .window .text p{
@@ -538,6 +552,14 @@ ul.horizontal li{
 	top:-10px;
 	left:-10px;
 }
+
+/* hiw visitor */
+
+#content .hiw_visitor{
+	height: 500px;
+}
+
+
 
 /* hiw customer*/
 
@@ -739,3 +761,6 @@ ul.horizontal li{
 	bottom:0px;
 	right:0px;
 }
+
+/* fancybox */
+

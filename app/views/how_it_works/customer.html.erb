@@ -3,38 +3,47 @@
 	
 	<div class="window step1">
 		<div class="text">
-			<h3><%= t("hiw_customer_step1_title")%></h3>
+			<h3><blockquote><%= t("hiw_customer_step1_title")%></blockquote></h3>
 			<p><%= t("hiw_customer_step1_text")%></p>
 		</div>
-		<div class="picture"><a rel="lightbox" href="/images/web/hiw/customer/pict_1_full.png"><img src="/images/web/hiw/customer/pict_1.png" alt="step1" /></a></div>
+		<div class="picture"><a class="fancybox" href="/images/web/hiw/customer/pict_1_full.png"><img src="/images/web/hiw/customer/pict_1.png" alt="step1" /></a></div>
 		<div class="numbering"><img src="/images/web/hiw/customer/numbering_1.png" alt="1"></div>
 	</div>
 	
 	<div class="window step2">
 		<div class="text">
-			<h3><%= t("hiw_customer_step2_title")%></h3>
+			<h3><blockquote><%= t("hiw_customer_step2_title")%></blockquote></h3>
 			<p><%= t("hiw_customer_step2_text")%></p>
 		</div>
-		<div class="picture"><a rel="lightbox" href="/images/web/hiw/customer/pict_2_full.png"><img src="/images/web/hiw/customer/pict_2.png" alt="step2" /></a></div>
+		<div class="picture"><a class="fancybox" href="/images/web/hiw/customer/pict_2_full.png"><img src="/images/web/hiw/customer/pict_2.png" alt="step2" /></a></div>
 		<div class="numbering"><img src="/images/web/hiw/customer/numbering_2.png" alt="2"></div>		
 	</div>
 	
 	<div class="window step3">
 		<div class="text">
-			<h3><%= t("hiw_customer_step3_title")%></h3>
+			<h3><blockquote><%= t("hiw_customer_step3_title")%></blockquote></h3>
 			<p><%= t("hiw_customer_step3_text")%></p>
 		</div>
-		<div class="picture"><a rel="lightbox" href="/images/web/hiw/customer/pict_3_full.png"><img src="/images/web/hiw/customer/pict_3.png" alt="step3" /></a></div>
+		<div class="picture"><a class="fancybox" href="/images/web/hiw/customer/pict_3_full.png"><img src="/images/web/hiw/customer/pict_3.png" alt="step3" /></a></div>
 		<div class="numbering"><img src="/images/web/hiw/customer/numbering_3.png" alt="3"></div>		
 	</div>
 	
 	<div class="window step4">
 		<div class="text">
-			<h3><%= t("hiw_customer_step4_title")%></h3>
+			<h3><blockquote><%= t("hiw_customer_step4_title")%></blockquote></h3>
 			<p><%= t("hiw_customer_step4_text")%></p>
 		</div>
-		<div class="picture"><a rel="lightbox" href="/images/web/hiw/customer/pict_4_full.png"><img src="/images/web/hiw/customer/pict_4.png" alt="step4" /></a></div>
+		<div class="picture"><a class="fancybox" href="/images/web/hiw/customer/pict_4_full.png"><img src="/images/web/hiw/customer/pict_4.png" alt="step4" /></a></div>
 		<div class="numbering"><img src="/images/web/hiw/customer/numbering_4.png" alt="4"></div>		
 	</div>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".fancybox").fancybox({
+				'transitionIn'	:	'elastic',
+				'transitionOut'	:	'elastic'
+			});
+		});
+	</script>
 	
 </div>

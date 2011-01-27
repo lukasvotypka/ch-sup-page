@@ -11,23 +11,21 @@
 	<div class="offer customer"><%= link_to '<em> '+t("When you want to use our services.")+'</em>', how_it_works_url(:customer) %></p></div>
 	
 	<script type="text/javascript">
-		var AnimateOption = Class.create({
-			el: null,
-			initialize: function(el) {
-				this.el = el;
-				el.observe('mouseover', this.handleMouseOver.bind(this));
-				el.observe('mouseout', this.handleMouseOut.bind(this));
-			},
-			handleMouseOver: function(event) {
-				new Effect.Morph(this.el, {style:'top: 100px', duration:0.4});
-			},
-			handleMouseOut: function(event) {
-				new Effect.Morph(this.el, {style:'top: 117px', duration:0.4});
-			}
-		});
+	
+		function doAnimatable(el) {
+			$(el).mouseenter(function(){
+				$(this).animate({ "top":"100px"});
+			});
+			
+			$(el).mouseleave(function(){
+				$(this).animate({ "top":"117px"});
+			});
+		}
+	
 		
-		new AnimateOption($$(".hiw .visitor")[0]);
-		new AnimateOption($$(".hiw .customer")[0]);
+		
+		doAnimatable($(".hiw .visitor"));
+		doAnimatable($(".hiw .customer"));
 
 	</script>
 
