@@ -80,8 +80,8 @@ sk:
   hiw_customer_step4_title: "Neobmedzený prístup ku všetkým zákazníckym konverzáciám..."
   hiw_customer_step4_text: "Zvoľte si dátum kedy naši operátori začnú s poskytovaním pomoci na Vašej stránke. Konverzácie operátorov s návštevníkmi stránky môžete monitorovať 24/7 prostredníctvom našej zákazníckej platformy."
   
-  hiw_option_visitor: "Váš web má záujem poskytovať on-line pomoc"
-  hiw_option_customer: "Váš zákazník kontaktuje on-line pomoc."
+  hiw_option_visitor: "Váš zákazník kontaktuje on-line pomoc."
+  hiw_option_customer: "Váš web má záujem poskytovať on-line pomoc."
   hiw_section_header: "Naše služby > Info"
   
   Users: "Users"
