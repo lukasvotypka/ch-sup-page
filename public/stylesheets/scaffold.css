@@ -1,35 +1,51 @@
 html, body { background-color: #494949; color: #333; padding:0; margin:0; height: 100%;}
 
 @font-face {
-  font-family: 'CartoGothicStd BoldItalic';
-  src: url(CartoGothicStd BoldItalic);
-  src: local('CartoGothicStd BoldItalic'), local('CartoGothicStd BoldItalic'), 
-         url(/stylesheets/fonts/CartoGothicStd-BoldItalic.otf) format('opentype');
+    font-family: 'CartoGothicStdBold';
+    src: url('cartogothicstd-bold-webfont.eot?') format('eot'),
+         url('cartogothicstd-bold-webfont.woff') format('woff'),
+         url('cartogothicstd-bold-webfont.ttf') format('truetype'),
+         url('cartogothicstd-bold-webfont.svg#webfontkqewS0SU') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
 }
 
 @font-face {
-  font-family: 'CartoGothicStd Bold';
-  src: url(CartoGothicStd Bold);
-  src: local('CartoGothicStd Bold'), local('CartoGothicStd Bold'), 
-         url(/stylesheets/fonts/CartoGothicStd-Bold.otf) format('opentype');
+    font-family: 'CartoGothicStdBoldItalic';
+    src: url('cartogothicstd-bolditalic-webfont.eot?') format('eot'),
+         url('cartogothicstd-bolditalic-webfont.woff') format('woff'),
+         url('cartogothicstd-bolditalic-webfont.ttf') format('truetype'),
+         url('cartogothicstd-bolditalic-webfont.svg#webfontIwTcZvq9') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-  font-family: 'CartoGothicStd Italic';
-  src: url(CartoGothicStd Italic);
-  src: local('CartoGothicStd Italic'), local('CartoGothicStd Italic'), 
-         url(/stylesheets/fonts/CartoGothicStd-Italic.otf) format('opentype');
+    font-family: 'CartoGothicStdBook';
+    src: url('cartogothicstd-webfont.eot?') format('eot'),
+         url('cartogothicstd-webfont.woff') format('woff'),
+         url('cartogothicstd-webfont.ttf') format('truetype'),
+         url('cartogothicstd-webfont.svg#webfontv65f0uzU') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
-  font-family: 'CartoGothicStd';
-  src: url(CartoGothicStd);
-  src: local('CartoGothicStd'), local('CartoGothicStd'), 
-         url(/stylesheets/fonts/CartoGothicStd.otf) format('opentype');
+    font-family: 'CartoGothicStdItalic';
+    src: url('cartogothicstd-italic-webfont.eot?') format('eot'),
+         url('cartogothicstd-italic-webfont.woff') format('woff'),
+         url('cartogothicstd-italic-webfont.ttf') format('truetype'),
+         url('cartogothicstd-italic-webfont.svg#webfontKu2tdteA') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body, p, ol, ul, td {
-  font-family: "Myriad pro",arial,Tahoma, verdana, helvetica, sans-serif;
+  font-family: "CartoGothicStdBook","Myriad pro",arial,Tahoma, verdana, helvetica, sans-serif;
   font-size:   13px;
   line-height: 18px;
 }
@@ -66,7 +82,7 @@ a:hover { color: #fff;}
 
 #errorExplanation h2 {
   text-align: left;
-  font-weight: bold;
+  font-family: "CartoGothicBold", "Myriad Pro", arial;
   padding: 5px 5px 5px 15px;
   font-size: 12px;
   margin: -7px;
@@ -185,8 +201,7 @@ ul.horizontal li{
 
 #navigation ul a{
 	font-size: 15px;
-	font-weight: bold;
-	font-family: "Myriad pro", arial,Tahoma;
+	font-family: "CartoGothicStdBold","Myriad pro", arial,Tahoma;
 	text-decoration: none;
 	color: #bbbbbb;
 }
@@ -283,9 +298,9 @@ ul.horizontal li{
 	color: #323232;
 	font-size: 1.2em;
 	text-transform: uppercase;
-	font-family: "Myriad pro", arial, Tahoma;
-	font-weight:600;
+	font-family: "CartoGothicStdBold", "Myriad pro", arial, Tahoma;
 	text-align:center;
+	font-weight: bold;
 }
 
 #content{
@@ -309,8 +324,7 @@ ul.horizontal li{
 
 #content h2, #content h2 a{
 	color: #9ad411;
-	font-family: "Myriad pro", arial, Tahoma;
-	font-weight:600;
+	font-family: "CartoGothicStdBold", "Myriad pro", arial, Tahoma;
 }
 
 #content h2{
@@ -334,7 +348,8 @@ ul.horizontal li{
 }
 
 #content .buble{
-	font-weight:600;
+	font-family: "CartoGothicBold", "Myriad Pro", arial !important;
+	
 }
 
 /* contact us */
@@ -350,7 +365,7 @@ ul.horizontal li{
 }
 
 #content ul.contact span{
-	font-weight:600;
+	font-family: "CartoGothicBold", "Myriad Pro", arial;
 }
 
 #content .contact_us{
@@ -367,7 +382,7 @@ ul.horizontal li{
 	margin-left: 5em;
 	font-size: 1.3em;
 	text-transform:uppercase;
-	font-weight:600;
+	font-family: "CartoGothicBold", "Myriad Pro", arial;
 	width:26em;
 	text-align:right;
 }
@@ -436,7 +451,8 @@ ul.horizontal li{
 #faq-content .q{
 	margin-top: 2em;
 	text-transform:uppercase;
-	font-weight:600;
+	font-family: "CartoGothicBold", "Myriad Pro", arial;
+	font-weight: bold;
 }
 #faq-content .a{
 	
@@ -465,8 +481,8 @@ ul.horizontal li{
 
 #content .hiw .offer a em{
 	color:#FFFFFF;
-	font-size:18px;
-	font-family: 'CartoGothicStd Italic';
+	font-size:16px;
+	font-family: 'CartoGothicStdItalic';
 }
 
 #content .hiw .visitor a{
@@ -552,7 +568,7 @@ ul.horizontal li{
 }
 
 #content .hiw .window .text h3{
-	font-family: 'CartoGothicStd BoldItalic';
+	font-family: 'CartoGothicStdBoldItalic';
 	margin-top: 20px;
 }
 
@@ -587,13 +603,19 @@ ul.horizontal li{
 
 #content .hiw_customer .step2 .picture{
 	top:30px;
-	right: 50px;
+	right: 30px;
 }
 
-#content .hiw .step3 .picture{
+#content .hiw_customer .step3 .picture{
 	top:30px;
 	right: 50px;
 }
+
+#content .hiw_customer .step4 .picture{
+	top:30px;
+	right: 50px;
+}
+
 
 /* about us */
 
@@ -654,8 +676,9 @@ ul.horizontal li{
 }
 
 #content .about_us .title{
-	color: #c6c8c4;
-	font-weight: bold;
+	color: #fff;
+	font-family: "CartoGothincStdBold";
+	font-size: 11px;
 	top: -3px;
 }
 
@@ -692,7 +715,7 @@ ul.horizontal li{
 }
 
 #content .prices .prices_items{
-	font-weight: 600;
+	font-family: "CartoGothicBold", "Myriad Pro", arial;
 	font-size: 13px;
 	text-transform: uppercase;
 	margin-top: 2em;
@@ -768,7 +791,7 @@ ul.horizontal li{
 
 #content .home .scene #buble p{
 	font-size:11px;
-	font-weight:600;
+	font-family: "CartoGothicBold", "Myriad Pro", arial;
 	margin:5px 10px 20px;
 	text-align: center;
 	line-height: 1.2em;

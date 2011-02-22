@@ -39241,3 +39241,1298 @@ ActionController::RoutingError (No route matches "/how_it_works/images/green/gre
   /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:01:34) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 146ms (View: 140, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:01:38) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:01:41) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 53ms (View: 48, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:01:42) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:12:06) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 124ms (View: 97, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;36;1mSQL (1.8ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:12:08) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:12:30) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:12:31) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:13:46) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:13:47) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:14:02) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:14:04) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (395.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (76.4ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 603ms (View: 48, DB: 472) | 200 OK [http://localhost.sk/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:14:07) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:14:07) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:14:09) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 42ms (View: 37, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:19:05) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 38ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:19:15) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mFaq Load (76.6ms)[0m   [0;1mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'sk') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+Completed in 201ms (View: 11, DB: 77) | 200 OK [http://localhost.sk/faq]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:19:20) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 36ms (View: 31, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:19:29) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:19:34) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 39ms (View: 33, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:19:34) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:19:36) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;36;1mPrice Columns (34.0ms)[0m   [0;1mSHOW FIELDS FROM `prices`[0m
+Completed in 75ms (View: 11, DB: 35) | 200 OK [http://localhost.sk/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:19:47) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:20:14) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 82ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:20:21) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;36;1mPrice Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `prices`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:20:26) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:20:26) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (15.8ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:22:42) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 53ms (View: 38, DB: 16) | 200 OK [http://localhost/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:22:43) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:23:21) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 29ms (View: 21, DB: 0) | 200 OK [http://localhost/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:23:21) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (1.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:23:22) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:23:28) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:23:34) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.4ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (33.1ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 95ms (View: 31, DB: 34) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:23:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:24:50) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 44ms (View: 8, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:25:14) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.4ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:26:44) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.4ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 18ms (View: 8, DB: 2) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:27:31) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.4ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 19ms (View: 8, DB: 2) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:27:33) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.4ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 80ms (View: 9, DB: 2) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:27:42) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:27:53) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:28:20) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:29:57) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 15ms (View: 7, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:30:02) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:30:22) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:30:28) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 14ms (View: 7, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:31:01) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 75ms (View: 8, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:31:11) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:31:14) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.5ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 20ms (View: 9, DB: 3) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:31:52) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.5ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'en') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+  [4;36;1mFaq Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `faqs`[0m
+Completed in 19ms (View: 9, DB: 2) | 200 OK [http://localhost/faq]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:32:00) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:32:08) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:09) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#visitor (for 127.0.0.1 at 2011-02-22 12:32:10) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/visitor
+Completed in 31ms (View: 26, DB: 0) | 200 OK [http://localhost/how_it_works/visitor]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:10) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:32:13) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 15ms (View: 10, DB: 0) | 200 OK [http://localhost/how_it_works/section]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:13) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:32:14) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 56ms (View: 50, DB: 0) | 200 OK [http://localhost/how_it_works/customer]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:14) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:14) [GET]
+
+ActionController::RoutingError (No route matches "/images/web/hiw/customer/pict_4.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:32:16) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;36;1mPrice Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `prices`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:32:23) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:32:33) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 18ms (View: 10, DB: 0) | 200 OK [http://localhost/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:32:43) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost/about_us]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:32:45) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:45) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:32:48) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 19ms (View: 11, DB: 0) | 200 OK [http://localhost/how_it_works/customer]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:48) [GET]
+
+ActionController::RoutingError (No route matches "/images/web/hiw/customer/pict_4.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:32:48) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:32:52) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;36;1mPrice Columns (53.2ms)[0m   [0;1mSHOW FIELDS FROM `prices`[0m
+Completed in 72ms (View: 10, DB: 54) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:32:59) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.8ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;36;1mPrice Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `prices`[0m
+Completed in 84ms (View: 74, DB: 2) | 200 OK [http://localhost.sk/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:33:03) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-02-22 12:33:20) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;36;1mPrice Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `prices`[0m
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost.sk/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:33:23) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:33:23) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:34:18) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 15ms (View: 9, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:34:19) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#visitor (for 127.0.0.1 at 2011-02-22 12:34:24) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/visitor
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/visitor]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:34:24) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#about_us (for 127.0.0.1 at 2011-02-22 12:34:30) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/about_us
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/about_us]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#faq (for 127.0.0.1 at 2011-02-22 12:34:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mFaq Load (0.6ms)[0m   [0mSELECT * FROM `faqs` WHERE (`faqs`.`lang` = 'sk') [0m
+Rendering template within layouts/pages
+Rendering pages/faq
+Completed in 16ms (View: 7, DB: 1) | 200 OK [http://localhost.sk/faq]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2011-02-22 12:34:40) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Rendering template within layouts/pages
+Rendering pages/contact
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-02-22 12:34:57) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 13ms (View: 7, DB: 0) | 200 OK [http://localhost.sk/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#customer_app (for 127.0.0.1 at 2011-02-22 12:35:09) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+Redirected to http://customers.chat-support.net
+Completed in 2ms (DB: 0) | 302 Found [http://localhost.sk/customer_app]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#section (for 127.0.0.1 at 2011-02-22 12:39:28) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/section
+Completed in 56ms (View: 26, DB: 0) | 200 OK [http://localhost.sk/how_it_works/section]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:39:28) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:39:29) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:39:30) [GET]
+
+ActionController::RoutingError (No route matches "/images/web/hiw/customer/pict_4.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (6.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:39:30) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:48:01) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 54ms (View: 24, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:48:02) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (10.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:50:34) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 19ms (View: 9, DB: 11) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:50:34) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:53:46) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:53:46) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:53:51) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 14ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:53:52) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:54:03) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:54:04) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:55:50) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 13ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:55:51) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:57:01) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 35ms (View: 30, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:57:02) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing HowItWorksController#customer (for 127.0.0.1 at 2011-02-22 12:57:13) [GET]
+  Parameters: {"collection"=>{"section"=>:get, "visitor"=>:get, "customer"=>:get}}
+Rendering template within layouts/pages
+Rendering how_it_works/customer
+Completed in 15ms (View: 8, DB: 0) | 200 OK [http://localhost.sk/how_it_works/customer]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-02-22 12:57:17) [GET]
+
+ActionController::RoutingError (No route matches "/how_it_works/images/green/green_minimal.png" with {:method=>:get}):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
