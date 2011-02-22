@@ -82,8 +82,8 @@ en:
   hiw_customer_step4_title: "24/7 access to all conversations..."
   hiw_customer_step4_text: "Choose date when you want us to start supporting your web. Monitor all conversations that our operators have with your website visitors anytime you want using our customer's plattform."
 
-  hiw_option_visitor: "Your web needs live help services."
-  hiw_option_customer: "Customer contacts our live support."
+  hiw_option_visitor: "Customer contacts our live support."
+  hiw_option_customer: "Your web needs live help services."
   hiw_section_header: "How it works when:"
 
   #admin
