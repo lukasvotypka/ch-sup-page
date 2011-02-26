@@ -573,7 +573,7 @@ ul.horizontal li{
 	font-family: 'CartoGothicStdBoldItalic';
 	margin-top: 20px;
         font-weight: normal;
-        letter-spacing: 0.1ex;
+        letter-spacing: 1px;
 }
 
 #content .hiw .window .text p{
