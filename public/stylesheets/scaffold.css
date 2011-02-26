@@ -572,6 +572,8 @@ ul.horizontal li{
 #content .hiw .window .text h3{
 	font-family: 'CartoGothicStdBoldItalic';
 	margin-top: 20px;
+        font-weight: normal;
+        letter-spacing: 0.1ex;
 }
 
 #content .hiw .window .text p{
