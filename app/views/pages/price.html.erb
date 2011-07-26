@@ -4,47 +4,71 @@
 	
 	<div class="text_wrapper">
 		<div class="prices_items">
+                  <div class="top">
 			<div class="price_items_wrapper">
-			<% i = 0 %>
-			<% @prices.each do |price| %>
-				<div class="price_item pi<%= i %>">
-					<div class="left"> 
-						<%= price.hours %> <%= t("hours") %>/<%= t("day") %>
-					</div>
-					<div class="right">  
-						<em><%= price.price %></em> <%= t("EUR") %>/<%= t("hour")%>
-					</div>
-					<div class="clear"></div>  
-				</div>
-				<% i+=1  %>
-			<% end %>
+                          <div class="price_item pi0">
+                            <h3><img src="/images/web/prices/price_basic_title.png" alt="basic" /><em>Basic</em></h3>
+                            <h4><em>450</em></h4>
+                            <ul>
+                              <li><%= t(:initial_operators_training)%> </li>
+                              <li>8<%= t(:hours_day)%>, 5<%= t(:days_week)%> </li>
+                              <li>100 <%= t(:conversations_included)%> </li>
+                              <li>+ 4 <%= t(:EUR_excluded_conversation)%> </li>
+                            </ul>
+                          </div>
+
+                          <div class="price_item pi1">
+                            <h3><img src="/images/web/prices/price_optimal_title.png" alt="Optimal" /><em>Optimal</em></h3>
+                            <h4><em>800 EUR</em></h4>
+                            <ul>
+                              <li><%= t(:initial_operators_training)%> </li>
+                              <li>16<%= t(:hours_day)%>, 5<%= t(:days_week)%> </li>
+                              <li>200 <%= t(:conversations_included)%> </li>
+                              <li>+ 3.5 <%= t(:EUR_excluded_conversation)%> </li>
+                              <li>2 <%= t(:operator_seats_for_your_staff) %></li>
+                            </ul>
+                          </div>
+
+                          <div class="price_item pi2">
+                            <h3><img src="/images/web/prices/price_profesional_title.png" alt="Optimal" /><em>Profesional</em></h3>
+                            <h4><em>1200 EUR</em></h4>
+                            <ul>
+                              <li><%= t(:initial_operators_training)%> </li>
+                              <li>24<%= t(:hours_day)%>, 5<%= t(:days_week)%> </li>
+                              <li>300 <%= t(:conversations_included)%> </li>
+                              <li>+ 3.5 <%= t(:EUR_excluded_conversation)%> </li>
+                              <li>5 <%= t(:operator_seats_for_your_staff) %></li>
+                            </ul>
+                          </div>
 			</div>
+                      
+                    <div class="bottom">
+                      <div class="price_item pi0"><button onclick="order('basic');"><%= t(:order_now)%></button></div>
+                      <div class="price_item pi1"><button onclick="order('optimal');" class="green"><%= t(:order_now)%></button></div>
+                      <div class="price_item pi2"><button onclick="order('profesional');"><%= t(:order_now)%></button></div>
+                    </div>
+                    </div>
 		</div>
+
+          <div class="notes">
+            <div class="item">
+              <div class="star"><img src="/images/web/prices/star.png" alt="*"/></div>
+              <p><%= t(:prices_notes_1) %></p>
+              <div class="clear"></div>
+            </div>
+            <div class="item">
+              <div class="star"><img src="/images/web/prices/star.png" alt="*"/><img src="/images/web/prices/star.png" alt="*"/></div>
+              <p><%= t(:prices_notes_2) %></p>
+              <div class="clear"></div>
+            </div>
+
+            <div class="item right">
+              <p><%= t(:prices_notes_3) %></p>
+            </div>
+          </div>
 		
 		
-		<p>
-			<b><%= t("Subscription includes") %>:</b>
-			<ul>
-				<li><%= t("chat support software + its implementation into your web + software maintenance") %></li>
-				<li><%= t("trained operators who will provide online customer support on your web") %></li>
-				<li><%= t("unlimited access to all chat support conversations") %></li>
-			</ul>
-		</p>
-		
-		<p>
-			<b><%= t("SPECIAL OFFERS") %>:</b>
-			<ul>
-				<li><%= t("Get a 10% discount for recommending our service to our next client!") %></li>
-				<li><%= t("Have more websites? Get support for second website with 10% discount!") %></li>
-			</ul>
-		</p>
-		
-		<p><b><%= t("IMPORTANT INFO") %>:</b>
-		<%= t("Prices above are calculated for small businesses (less than 80 chat support clients per 24 hours)") %></p>
-	</div>	
-	
-	<div class="scene">
-			<img src="/images/web/prices/prices_person1.png" alt="person" />
-	</div>
+          <div class="clear"></div>
+        </div>
 	
 </div>

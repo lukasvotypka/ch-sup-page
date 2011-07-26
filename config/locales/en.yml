@@ -86,6 +86,17 @@ en:
   hiw_option_customer: "Your web needs live help services."
   hiw_section_header: "How it works when:"
 
+  initial_operators_training: "Initial operators’ training"
+  hours_day: "hours/day"
+  days_week: "days/week"
+  conversations_included: "conversations included"
+  EUR_excluded_conversation: "EUR/ excluded conversation"
+  operator_seats_for_your_staff: "operator seats for your staff"
+  order_now: "Order now"
+  prices_notes_1: "With each option you set up your own maximum of exceeded conversations."
+  prices_notes_2: "Each subscription includes free implementation 24/7 acess to history of conversations."
+  prices_notes_3: "We offer much more. Enterprise model with dedicated operators, ... For more information do not hesitate to contact our live support."
+
   #admin
   Users: "Users"
   Logout: "Logout"

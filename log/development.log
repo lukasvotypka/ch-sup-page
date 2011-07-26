@@ -41143,3 +41143,1089 @@ ActionController::RoutingError (No route matches "/how_it_works/images/green/gre
   /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (19.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-07-23 10:35:21) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 105ms (View: 99, DB: 20) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 10:35:26) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (58.7ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 87ms (View: 18, DB: 61) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 10:48:40) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 115ms (View: 12, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 10:49:30) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 10:50:41) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 21ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 10:51:16) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 23ms (View: 13, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 10:51:44) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:26:56) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (29.5ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 175ms (View: 10, DB: 30) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:28:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 20ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-07-23 11:48:32) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 199ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:48:34) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 68ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:49:40) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (865.1ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 926ms (View: 50, DB: 866) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:52:07) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:52:56) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 20ms (View: 11, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:53:04) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 25ms (View: 14, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:57:33) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 22ms (View: 13, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 11:59:25) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 22ms (View: 12, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:02:54) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 114ms (View: 22, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:04:15) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:05:22) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 24ms (View: 14, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:05:26) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+  [4;35;1mPrice Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `prices`[0m
+Completed in 19ms (View: 9, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:13:32) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:13:33) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 19ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:26:31) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 173ms (View: 13, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:35:09) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:47:07) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:49:15) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 84ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:52:25) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.8ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 106ms (View: 11, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 12:53:05) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.6ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:04:24) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 55ms (View: 16, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:05:19) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:05:52) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 19ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:06:43) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:06:54) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.8ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:07:42) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 20ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:07:52) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 23ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (10.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:08:00) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (14.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 36ms (View: 8, DB: 25) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:09:54) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:11:12) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (48.8ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 79ms (View: 8, DB: 49) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:12:05) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (4.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 24ms (View: 10, DB: 7) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:12:44) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.6ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:13:13) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 21ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (2.0ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:13:59) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (1.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 33ms (View: 21, DB: 4) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:22:36) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 37ms (View: 25, DB: 2) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:24:16) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 27ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:24:21) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 27ms (View: 17, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:25:43) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 16ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:27:46) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:28:22) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 32ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:29:30) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 82ms (View: 67, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:30:10) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (1.7ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 29ms (View: 17, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:30:34) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:32:08) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:32:50) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 48ms (View: 9, DB: 0) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:33:06) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 20ms (View: 10, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:35:23) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (1.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 56ms (View: 21, DB: 2) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:36:33) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:37:53) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+
+ArgumentError (syntax error on line 96, col -1: `  Logout: "Logout"'):
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/yaml.rb:133:in `load'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/yaml.rb:133:in `load'
+  app/controllers/pages_controller.rb:15:in `price'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (130.1ms)
+Rendered rescues/_request_and_response (95.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:38:01) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 23ms (View: 15, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:38:31) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:40:37) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 24ms (View: 14, DB: 0) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:42:44) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (1.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 24ms (View: 10, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:43:02) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 51ms (View: 10, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:44:04) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (2.0ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 28ms (View: 17, DB: 3) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:44:27) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 114ms (View: 106, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:45:06) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:45:56) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:46:32) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 20ms (View: 12, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:47:43) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.8ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 87ms (View: 78, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:49:36) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 45ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:50:07) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 22ms (View: 12, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:51:40) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:52:37) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (3.0ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 117ms (View: 10, DB: 3) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:53:06) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:55:16) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (1.0ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 50ms (View: 13, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 13:56:30) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 28ms (View: 19, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:08:01) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 188ms (View: 16, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:09:15) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 268ms (View: 84, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:10:06) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 27ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.6ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:12:07) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (1.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 24ms (View: 11, DB: 2) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:14:38) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 193ms (View: 11, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:15:07) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 21ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:15:48) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (2.9ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 25ms (View: 14, DB: 3) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:16:00) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 19ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:16:32) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 9, DB: 2) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:18:28) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 18ms (View: 10, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:18:55) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 19ms (View: 10, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:19:15) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 30ms (View: 18, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:19:36) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 24ms (View: 11, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:20:23) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 121ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:27:35) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 328ms (View: 23, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:29:57) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 96ms (View: 15, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:33:32) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 250ms (View: 10, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:34:26) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 99ms (View: 19, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:37:51) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 115ms (View: 11, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:38:32) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 108ms (View: 38, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:40:41) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 162ms (View: 15, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-23 14:41:24) [GET]
+  Parameters: {"collection"=>{"faq"=>:get, "price"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 9, DB: 1) | 200 OK [http://localhost/price]
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-07-26 12:37:57) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 122ms (View: 117, DB: 0) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-26 12:38:02) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (107.7ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 154ms (View: 19, DB: 108) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-26 12:38:30) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (17.1ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 34ms (View: 8, DB: 17) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-26 12:39:45) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+
+ActionView::TemplateError (wrong number of arguments (1 for 2)) on line #10 of app/views/layouts/pages.html.erb:
+7:   <meta name="google-site-verification" content="usgXx1BIIPe9fBxJtr68Gw0Gk_YiuToxJ_sO7eeIv7g" />
+8:   <title>Chat-support.net: <%= @title %></title>
+9:   <%= stylesheet_link_tag 'scaffold' %>
+10:   <%= javascript_src_tag 'application' %>
+11:   <%= javascript_src_tag 'jquery.min.js', {} %>
+12:   <%= javascript_src_tag 'fancybox/jquery.fancybox-1.3.4.pack.js', {} %>
+13:   <link rel="stylesheet" href="/javascripts/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+
+    app/views/layouts/pages.html.erb:10:in `javascript_src_tag'
+    app/views/layouts/pages.html.erb:10
+    app/controllers/pages_controller.rb:18:in `price'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /Users/luigi/.rvm/rubies/ruby-1.8.7-p330/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (128.7ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-07-26 12:39:53) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 23ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
