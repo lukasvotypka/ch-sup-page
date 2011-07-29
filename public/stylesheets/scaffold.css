@@ -346,6 +346,7 @@ ul.horizontal li{
 #foot .wrapper{
 	text-align:center;
 	color: #D7D7D7;
+        margin-top: 10px;
 }
 
 #content .buble{
@@ -715,6 +716,7 @@ ul.horizontal li{
 
 #content .prices .text_wrapper{
     margin-left: -68px;
+    padding-bottom: 100px;
 }
 
 #content .prices .prices_items,
