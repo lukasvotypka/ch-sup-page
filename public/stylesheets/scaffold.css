@@ -714,7 +714,13 @@ ul.horizontal li{
 }
 
 #content .prices .text_wrapper{
-	width: 38em;
+    margin-left: -68px;
+}
+
+#content .prices .prices_items,
+#content .prices .notes{
+    width: 828px;
+    position: relative;
 }
 
 #content .prices .prices_items{
@@ -722,9 +728,7 @@ ul.horizontal li{
 	font-size: 13px;
 	text-transform: uppercase;
 	background: url(/images/web/prices/prices_middle.png) repeat-y center top;
-        width: 828px;
-        
-	position: relative;
+	
 	color: #eeeeee;
 }
 
@@ -733,8 +737,8 @@ ul.horizontal li{
 }
 
 #content .prices .prices_items .bottom{
-    background: url(/images/web/prices/prices_bottom.png) no-repeat center top;
-    width: 828px;
+    background: url(/images/web/prices/prices_bottom.png) no-repeat left top;
+    width: 843px;
     height: 148px;
     clear: both;
 }
@@ -824,7 +828,7 @@ ul.horizontal li{
     text-align: center;
     border-bottom: 1px dashed #e3e3e3;
     margin: 0 20px;
-    font-size: 13px;
+    font-size: 14px;
     text-transform: none;
     line-height: 30px;
 }
@@ -865,16 +869,13 @@ ul.horizontal li{
     font-size: 19px;
     font-family: helvetica;
     text-transform: none;
-    font-weight: bold;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 #content .prices .prices_items .bottom button.green{
     background: url(/images/web/prices/green_button.png) no-repeat center top;
     color: #3e7419;
-}
-
-#content .prices .notes{
-
 }
 
 #content .prices .notes .star, #content .prices .notes .p{
@@ -885,54 +886,101 @@ ul.horizontal li{
     width: 80px;
 }
 
-#content .prices .notes .p{
-    width: 330px;
+#content .prices .notes p{
+    text-align: justify;
 }
 
 #content .prices .notes .item{
-    margin-top: 20px;
+    
+}
+
+#content .prices .notes .item h3{
+    margin:0;
+    padding:0;
+}
+
+#content .prices .notes .item.left{
+    width: 45%;
 }
 #content .prices .notes .item.right{
     float: right;
+    width: 45%;
 }
 
 /* home */
 
 #content .home{
-	height: 500px;
+	padding-bottom: 30px;
 	position:relative;
 }
 
-#content .home p{
-	text-align: justify;
+#content .home .compare{
+    width:823px;
+    background: url(/images/web/home/compare_top_en.jpg) no-repeat left top;
+    padding-bottom: 16px;
 }
 
-#content .home .scene{
-	position: absolute;
-	bottom:0;
+#content .home .compare.sk{
+    background: url(/images/web/home/compare_top_sk.jpg) no-repeat left top;
 }
 
-#content .home .scene #buble{
-	position: absolute;
-	right: 20px;
-	bottom: 140px;
-	background: url(/images/web/home/home_buble.png) no-repeat top left;
-	width: 120px;
-	height: 80px;
+#content .home .compare .top{
+    height: 194px;
 }
 
-#content .home .scene #buble p{
-	font-size:11px;
-	font-family: "CartoGothicBold", "Myriad Pro", arial;
-	margin:5px 10px 20px;
-	text-align: center;
-	line-height: 1.2em;
+#content .home .compare.en .top{
+    background: url(/images/web/home/compare_top_en.jpg) no-repeat left top;
 }
 
-#content .home .scene #person{
-	position: absolute;
-	bottom:0px;
-	right:0px;
+#content .home .compare table{
+    
+    width: 100%;
+    border-spacing: 0;
+}
+
+#content .home .compare table td{
+    height: 51px;
+    text-align: center;
+    border-spacing: 0;
+}
+
+#content .home .compare table td.text{
+    font-size: 16px;
+    line-height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+#content .home .compare table td.green{
+    border-bottom: none;
+    width: 161px;
+}
+
+#content .home .compare table .line0 td.green{
+    
+}
+
+#content .home .compare table .line1 td.green{
+    
+}
+
+#content .home .compare table td.right-col{
+    width: 33px;
+}
+
+#content .home .compare table td.cross{
+    width: 170px;
+}
+
+#content .home .compare table td.text{
+    text-align: left;
+}
+
+#content .home .info{
+    padding-left: 30px;
+    background: url(/images/web/home/info.jpg) no-repeat left center;
+    line-height: 35px;
+    margin-left: 18px;
 }
 
 /* fancybox */

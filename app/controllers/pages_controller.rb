@@ -1,4 +1,6 @@
 class PagesController < PublicWebController
+  before_filter :locale
+
   # GET /pages
   # GET /pages.xml
   def index
@@ -51,5 +53,12 @@ class PagesController < PublicWebController
   
   def customer_app
     redirect_to('https://a.chat-support.net')
+  end
+
+  private
+
+  def locale
+    @locale = get_locale_mark
+    @locale
   end
 end

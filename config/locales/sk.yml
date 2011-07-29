@@ -12,7 +12,7 @@ sk:
   About us: "O nás"
   Contact: "Kontakt"
   Contact us: "Kontakt"
-  slogan_home: "Ukážte návštevníkom stránky, že Váš biznis je zákaznícky orientovaný! Ponúknite im okamžitú pomoc!"
+  slogan_home: "Mať web bez on-line pomoci je ako mať obchod bez predajcov."
   slogan_prices: "Ukážte zákazníkom, že Vám na nich záleží. Pomáhajte<br /> im aj mimo otváracích hodín!"
   slogan_how_it_works: "95% nových návštevníkov opúšťa internetovú stránku v priebehu 2 minút! Pomôžeme Vám zmeniť týchto návštevníkov na zákazníkov."
   slogan_faq: "Ubezpečte sa, že nestratíte potenciálneho zákazníka v prípade, že narazí na problém. Ponúknite mu okamžitú pomoc!"
@@ -83,5 +83,28 @@ sk:
   hiw_option_visitor: "Váš zákazník kontaktuje on-line pomoc."
   hiw_option_customer: "Váš web má záujem poskytovať on-line pomoc."
   hiw_section_header: "Naše služby > Info"
-  
+
+  #prices
+  initial_operators_training: "Zaškolenie operátorov"
+  hours_day: "hod. denne,"
+  days_week: "dní v týždni"
+  conversations_included: "konverzacií v cene"
+  EUR_excluded_conversation: "EUR/ konverzácia nad limit"
+  operator_seats_for_your_staff: "miesta pre Vašich operátorov"
+  operator_seat_for_your_staff: "miesto pre Vašich operátorov"
+  operator_seats5_for_your_staff: "miest pre Vašich operátorov"
+  order_now: "Order now"
+  prices_notes_1: "S každou možnosťou si volíte množstvo konverzácií nad limit, ktoré ste ochotný zaplatiť."
+  prices_notes_2: "Implementácia software-u ZADARMO, 24/7/365 prístup k histórií všetkých konverzácii."
+  prices_notes_3: "Ponúkame o mnoho viac. Enterprise model s dedikovanými operatormi, .... Pre viac informacií neváhajte kontaktovať stredisko on-line pomoci."
+  Not enough options: "Neviete si vybrať"
+
+  #home
+  Find qualified operators: "Nájsť kvalifikovaných operátorov"
+  Train operators, set-up and equip their department: "Zaškoliť operátorov, vytvoriť a zariadiť ich oddelenie"
+  Find and implement chat support software: "Nájsť a implementovať kvalitný live help software"
+  Modify design according to needs of your web: "Modifikovať dizajn podľa potrieb Vášho webu"
+  Quality control & Maintenance: "Kontroly kvality & Údržba"
+  For more info: "Pre viac info kliknite na sekciu Ceny, alebo neváhajte kontaktovať oddelenie on-line pomoci. "
+
   Users: "Users"

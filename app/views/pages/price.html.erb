@@ -14,7 +14,7 @@
                               <li>8<%= t(:hours_day)%>, 5<%= t(:days_week)%> </li>
                               <li>100 <%= t(:conversations_included)%> </li>
                               <li>+ 4 <%= t(:EUR_excluded_conversation)%> </li>
-                              <li>1 <%= t(:operator_seats_for_your_staff) %></li>
+                              <li>1 <%= t(:operator_seat_for_your_staff) %></li>
                             </ul>
                           </div>
 
@@ -26,7 +26,7 @@
                               <li>16<%= t(:hours_day)%>, 5<%= t(:days_week)%> </li>
                               <li>200 <%= t(:conversations_included)%> </li>
                               <li>+ 3.5 <%= t(:EUR_excluded_conversation)%> </li>
-                              <li>2 <%= t(:operator_seats_for_your_staff) %></li>
+                              <li>3 <%= t(:operator_seats_for_your_staff) %></li>
                             </ul>
                           </div>
 
@@ -37,8 +37,8 @@
                               <li><%= t(:initial_operators_training)%> </li>
                               <li>24<%= t(:hours_day)%>, 5<%= t(:days_week)%> </li>
                               <li>300 <%= t(:conversations_included)%> </li>
-                              <li>+ 3.5 <%= t(:EUR_excluded_conversation)%> </li>
-                              <li>5 <%= t(:operator_seats_for_your_staff) %></li>
+                              <li>+ 3 <%= t(:EUR_excluded_conversation)%> </li>
+                              <li>6 <%= t(:operator_seats5_for_your_staff) %></li>
                             </ul>
                           </div>
 			</div>
@@ -52,20 +52,23 @@
 		</div>
 
           <div class="notes">
-            <div class="item">
-              <div class="star"><img src="/images/web/prices/star.png" alt="*"/></div>
-              <p><%= t(:prices_notes_1) %></p>
-              <div class="clear"></div>
-            </div>
-            <div class="item">
-              <div class="star"><img src="/images/web/prices/star.png" alt="*"/><img src="/images/web/prices/star.png" alt="*"/></div>
-              <p><%= t(:prices_notes_2) %></p>
-              <div class="clear"></div>
-            </div>
-
             <div class="item right">
+              <h3><%= t("Not enough options") %>?</h3>
               <p><%= t(:prices_notes_3) %></p>
             </div>
+
+            <div class="item left">
+              <div class="star"><img src="/images/web/prices/star.png" alt="*"/></div>
+              <p><%= t(:prices_notes_1) %></p>
+              
+            </div>
+            <div class="item left">
+              <div class="star"><img src="/images/web/prices/star.png" alt="*"/><img src="/images/web/prices/star.png" alt="*"/></div>
+              <p><%= t(:prices_notes_2) %></p>
+              
+            </div>
+
+            
           </div>
 		
 		

@@ -2,31 +2,42 @@
 
 	<h2><%= t("Home") %></h2>
 	
-	<p>
-	<%= t("home_text1") %> 
-	</p>
-	<p>
-		<b>
-			<%= t("home_We will provide everything your website needs to offer live chat support to your potential customers") %>:
-		</b>
-	</p>
-	<ul>
-	
-	<li><%= t("chat support software + maintenance") %></li>
-	<li><%= t("professionally trained operators chosen to your exact needs") %></li>
-	<li><%= t("implementation of chat support client into your web") %></li>
-	<li><%= t("24/7 access to all chat support conversations") %></li>
-	</ul>
-	<%= t("All for unbeatable" )%> <%= link_to t("prices!"), pages_url(:price) %> 
-	
-	
-	<div class="scene">
-		<div class="wrapper">
-			<img id="person" alt="person" src="/images/web/home/home_person.jpg" />
-			<div class="buble" id="buble">
-				<p><%=t("Increase web sales now")%>!</p>
-			</div>
-		</div>
-	</div>
+        <div class="compare <%= @locale %>">
+          <div class="top"></div>
+          <table>
+            <tr class="line0">
+              <td class="text"><%= t("Find qualified operators")%></td>
+              <td class="cross"></td>
+              <td class="green"></td>
+              <td class="right-col"></td>
+            </tr>
+            <tr class="line1">
+              <td class="text"><%= t("Train operators, set-up and equip their department")%></td>
+              <td></td>
+              <td class="green"></td>
+              <td></td>
+            </tr>
+            <tr class="line0">
+              <td class="text"><%= t("Find and implement chat support software")%></td>
+              <td></td>
+              <td class="green"></td>
+              <td></td>
+            </tr>
+            <tr class="line1">
+              <td class="text"><%= t("Modify design according to needs of your web")%></td>
+              <td></td>
+              <td class="green"></td>
+              <td></td>
+            </tr>
+            <tr class="line0">
+              <td class="text"><%= t("Quality control & Maintenance")%></td>
+              <td></td>
+              <td class="green"></td>
+              <td></td>
+            </tr>
+          </table>
+          <div class="bottom"></div>
+        </div>
 
+        <p class="info"><%= t("For more info") %></p>
 </div>
