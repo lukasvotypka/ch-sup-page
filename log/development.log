@@ -44068,3 +44068,42 @@ Processing PagesController#price (for 127.0.0.1 at 2011-08-08 21:17:09) [GET]
 Rendering template within layouts/pages
 Rendering pages/price
 Completed in 139ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-08-08 21:22:45) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.6ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 201ms (View: 191, DB: 1) | 200 OK [http://localhost.sk/price/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-08-08 21:22:57) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;35;1mPrice Load (0.3ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 27ms (View: 18, DB: 1) | 200 OK [http://localhost.sk/price/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2011-08-08 21:24:17) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "customer_app"=>:get, "about_us"=>:get, "index"=>:get, "operator_app"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 25ms (View: 17, DB: 1) | 200 OK [http://localhost.sk/price/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2011-08-08 21:24:21) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 19ms (View: 13, DB: 0) | 200 OK [http://localhost.sk/]
