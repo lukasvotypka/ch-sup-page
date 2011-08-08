@@ -88,26 +88,25 @@ en:
 
   #prices
   initial_operators_training: "Initial operators’ training"
-  hours_day: "hours/day"
-  days_week: "days/week"
+  hours_day: "hours / week"
   conversations_included: "conversations included"
-  EUR_excluded_conversation: "EUR/ excluded conversation"
+  EUR_excluded_conversation: "EUR / excluded conversation"
   operator_seats_for_your_staff: "operator seats for your staff"
   operator_seat_for_your_staff: "operator seat for your staff"
   operator_seats5_for_your_staff: "operator seats for your staff"
   order_now: "Order now"
   prices_notes_1: "With each option you set up your own maximum of exceeded conversations."
-  prices_notes_2: "Each subscription includes free implementation 24/7 acess to history of conversations."
-  prices_notes_3: "We offer much more. Enterprise model with dedicated operators, ... For more information do not hesitate to contact our live support."
+  prices_notes_2: "Each subscription includes free implementation, 24/7 acess to history of conversations."
+  prices_notes_3: "We offer much more. Enterprise model with dedicated operators, etc.. For more information do not hesitate to contact our live support."
   Not enough options: "Not enough options"
-  For more info: "For more info check our pricing plans or contact our 24/7 live help department."
 
   #home
   Find qualified operators: "Find qualified operators"
   Train operators, set-up and equip their department: "Train operators, set-up and equip their department"
-  Find and implement chat support software: "Find and implement chat support software"
+  Find and implement chat support software: "Find and implement live-help software"
   Modify design according to needs of your web: "Modify design according to needs of your web"
   Quality control & Maintenance: "Quality control & Maintenance"
+  For more info: "For more info check our <a href=\"/price/\">pricing plans</a> or contact our 24/7 live help department."
 
   #admin
   Users: "Users"
