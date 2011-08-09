@@ -52,7 +52,7 @@ class PagesController < PublicWebController
   end
   
   def customer_app
-    redirect_to('https://a.chat-support.net')
+    redirect_to('https://support.chat-support.net')
   end
 
   private
