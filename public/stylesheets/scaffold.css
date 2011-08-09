@@ -836,15 +836,27 @@ ul.horizontal li{
 }
 
 #content .prices .prices_items .pi0 h4{
-    background: url(/images/web/prices/price_0.png) no-repeat center center;
+    background: url(/images/web/prices/price_0_en.png) no-repeat center center;
 }
 
 #content .prices .prices_items .pi1 h4{
-    background: url(/images/web/prices/price_1.png) no-repeat center center;
+    background: url(/images/web/prices/price_1_en.png) no-repeat center center;
 }
 
 #content .prices .prices_items .pi2 h4{
-    background: url(/images/web/prices/price_2.png) no-repeat center center;
+    background: url(/images/web/prices/price_2_en.png) no-repeat center center;
+}
+
+#content .prices .prices_items.sk .pi0 h4{
+    background: url(/images/web/prices/price_0_sk.png) no-repeat center center;
+}
+
+#content .prices .prices_items.sk .pi1 h4{
+    background: url(/images/web/prices/price_1_sk.png) no-repeat center center;
+}
+
+#content .prices .prices_items.sk .pi2 h4{
+    background: url(/images/web/prices/price_2_sk.png) no-repeat center center;
 }
 
 #content .prices .prices_items .pi1{
