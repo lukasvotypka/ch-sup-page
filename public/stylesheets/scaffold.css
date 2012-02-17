@@ -840,7 +840,7 @@ ul.horizontal li{
 }
 
 #content .prices .prices_items .pi1 h4{
-    background: url(/images/web/prices/price_1_en.png) no-repeat center center;
+    background: url(/images/web/prices/price_1_en.png) no-repeat 58px center;
 }
 
 #content .prices .prices_items .pi2 h4{
@@ -852,7 +852,7 @@ ul.horizontal li{
 }
 
 #content .prices .prices_items.sk .pi1 h4{
-    background: url(/images/web/prices/price_1_sk.png) no-repeat center center;
+    background: url(/images/web/prices/price_1_sk.png) no-repeat 58px center;
 }
 
 #content .prices .prices_items.sk .pi2 h4{

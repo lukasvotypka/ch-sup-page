@@ -44547,3 +44547,42 @@ Processing PagesController#price (for 127.0.0.1 at 2012-02-17 20:10:07) [GET]
 Rendering template within layouts/pages
 Rendering pages/price
 Completed in 180ms (View: 34, DB: 114) | 200 OK [http://localhost/price]
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 127.0.0.1 at 2012-02-17 20:58:40) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 199ms (View: 192, DB: 1) | 200 OK [http://localhost/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2012-02-17 20:58:44) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "about_us"=>:get, "operator_app"=>:get, "customer_app"=>:get, "index"=>:get}}
+  [4;36;1mPrice Load (0.6ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 26ms (View: 14, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.7ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2012-02-17 21:00:00) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "about_us"=>:get, "operator_app"=>:get, "customer_app"=>:get, "index"=>:get}}
+  [4;35;1mPrice Load (0.5ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 101ms (View: 8, DB: 1) | 200 OK [http://localhost/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2012-02-17 21:00:54) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "about_us"=>:get, "operator_app"=>:get, "customer_app"=>:get, "index"=>:get}}
+  [4;36;1mPrice Load (0.3ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 17ms (View: 6, DB: 1) | 200 OK [http://localhost/price]

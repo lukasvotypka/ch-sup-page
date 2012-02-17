@@ -86,9 +86,9 @@ sk:
 
   #prices
   initial_operators_training: "Zaškolenie operátorov"
-  hours_day: "hodín / týždeň"
+  hours_day: "hodín/deň"
   conversations_included: "konverzacií v cene"
-  EUR_excluded_conversation: "EUR / konverzácia nad limit"
+  EUR_excluded_conversation: "EUR/konverzácia nad limit"
   operator_seats_for_your_staff: "miesta pre Vašich operátorov"
   operator_seat_for_your_staff: "miesto pre Vašich operátorov"
   operator_seats5_for_your_staff: "miest pre Vašich operátorov"
