@@ -99,6 +99,7 @@ en:
   prices_notes_2: "Each subscription includes free implementation, 24/7 acess to history of conversations."
   prices_notes_3: "We offer much more. Enterprise model with dedicated operators, etc.. For more information do not hesitate to contact our live support."
   Not enough options: "Not enough options"
+  days_a_week: "days/week"
 
   #home
   Find qualified operators: "Find qualified operators"
