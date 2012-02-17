@@ -89,6 +89,7 @@ en:
   #prices
   initial_operators_training: "Initial operators’ training"
   hours_day: "hours/day"
+  hours_3_day: "hours/day"
   conversations_included: "conversations included"
   EUR_excluded_conversation: "EUR/additional conversation"
   operator_seats_for_your_staff: "operator seats for your staff"

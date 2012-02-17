@@ -44586,3 +44586,50 @@ Processing PagesController#price (for 127.0.0.1 at 2012-02-17 21:00:54) [GET]
 Rendering template within layouts/pages
 Rendering pages/price
 Completed in 17ms (View: 6, DB: 1) | 200 OK [http://localhost/price]
+* Loaded locales: ["en", "sk"]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2012-02-17 21:10:49) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "about_us"=>:get, "operator_app"=>:get, "customer_app"=>:get, "index"=>:get}}
+  [4;36;1mPrice Load (0.5ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 244ms (View: 232, DB: 1) | 200 OK [http://localhost/price]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 85.216.168.95 at 2012-02-17 21:11:26) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 18ms (View: 11, DB: 0) | 200 OK [http://85.216.168.95/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#index (for 192.168.1.100 at 2012-02-17 21:11:41) [GET]
+Rendering template within layouts/pages
+Rendering pages/index
+Completed in 10ms (View: 3, DB: 0) | 200 OK [http://192.168.1.101/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 192.168.1.100 at 2012-02-17 21:11:45) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "about_us"=>:get, "operator_app"=>:get, "customer_app"=>:get, "index"=>:get}}
+  [4;35;1mPrice Load (0.4ms)[0m   [0mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 15ms (View: 5, DB: 1) | 200 OK [http://192.168.1.101/price]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#price (for 127.0.0.1 at 2012-02-17 21:12:07) [GET]
+  Parameters: {"collection"=>{"price"=>:get, "faq"=>:get, "about_us"=>:get, "operator_app"=>:get, "customer_app"=>:get, "index"=>:get}}
+  [4;36;1mPrice Load (0.4ms)[0m   [0;1mSELECT * FROM `prices` [0m
+Rendering template within layouts/pages
+Rendering pages/price
+Completed in 49ms (View: 37, DB: 1) | 200 OK [http://localhost/price]

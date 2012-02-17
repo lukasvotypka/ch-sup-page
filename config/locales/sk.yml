@@ -85,9 +85,10 @@ sk:
   hiw_section_header: "Naše služby > Info"
 
   #prices
-  initial_operators_training: "Zaškolenie operátorov"
+  initial_operators_training: "Zaškolenie operátorov v cene"
   hours_day: "hodín/deň"
-  conversations_included: "konverzacií v cene"
+  hours_3_day: "hodiny/deň"
+  conversations_included: "konverzácií v cene"
   EUR_excluded_conversation: "EUR/konverzácia nad limit"
   operator_seats_for_your_staff: "miesta pre Vašich operátorov"
   operator_seat_for_your_staff: "miesto pre Vašich operátorov"
